@@ -26,6 +26,10 @@
 #
 #   Navigation to the right › side: right
 #
+- title: Home
+  url: "/"
+  side: right
+
 - title: "A+ Asses Explorer"
   url: "/AssetExplorler"
   side: right
