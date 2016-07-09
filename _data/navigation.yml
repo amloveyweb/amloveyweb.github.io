@@ -1,38 +1,39 @@
 #
 #   Navigation to the left › side: left
 #
-- title: Start
-  url: "/"
-  side: left
+# - title: Start
+#   url: "/"
+#   side: left
 
-- title: "Dropdown Menu"
-  url: "#"
-  side: left
-  dropdown:
-  - title: "Dropdown Menu 1"
-    url: "#"
-  - title: "Dropdown Menu 2"
-    url: "#"
-  - title: "Dropdown Menu 3"
-    url: "#"
+# - title: "Dropdown Menu"
+#   url: "#"
+#   side: left
+#   dropdown:
+#   - title: "Dropdown Menu 1"
+#     url: "#"
+#   - title: "Dropdown Menu 2"
+#     url: "#"
+#   - title: "Dropdown Menu 3"
+#     url: "#"
 
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+# - title: Blog
+#   url: "/blog/"
+#   side: left
+#   dropdown:
+#   - title: "Blog Archive"
+#     url: "/blog/archive/"
 
 #
 #   Navigation to the right › side: right
 #
-- title: "Info"
-  url: "/info/"
+- title: "A+ Asses Explorer"
+  url: "/AssetExplorler"
   side: right
-
-- title: "Search"
-  url: "/search/"
-  side: right
+  dropdown:
+    - title: "Introduction"
+      url: "/assetexplorer_screenshots"
+    - title: "Manual"
+      url: "/assetexplorer_manual"
 
 - title: "Contact"
   url: "/contact/"

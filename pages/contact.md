@@ -1,15 +1,11 @@
 ---
 layout: page
 title: "Contact"
-meta_title: "Contact Us"
+meta_title: "Contact Amlovey"
 subheadline: ""
 teaser: ""
 permalink: "/contact/"
 ---
 
-- [Wufoo][1]
-- [Google Forms][2]
+Hi there, i'm Amlovey. My Email is <amlovey@qq.com>. Welcome to send me email if you have questions or issues.
 
-
- [1]: http://www.wufoo.com/
- [2]: https://www.google.com/intl/de_de/forms/about/
