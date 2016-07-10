@@ -10,7 +10,7 @@ permalink: "/contact/"
 
 [amlovey@qq.com](mailto:amlovey@qq.com)
 
-### - Open issue in Github
+### - Open issues in Github
 
 <https://github.com/amloveyweb/amloveyweb.github.io/issues>
 
@@ -18,6 +18,5 @@ permalink: "/contact/"
 
 * [A+ Assets Explorer](https://community.unity.com/t/403471)
 
-
-#### Any __QUESTIONS__ or __ISSUES__, or features requests, Welcome to send email to me. :)
+##### Any __QUESTIONS__ or __ISSUES__, or features requests, Welcome to send email to me. :)
 

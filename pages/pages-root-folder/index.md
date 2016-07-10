@@ -13,6 +13,7 @@ widget1:
   url: 'http://www.amlovey.com/assetexplorer'
   image: 'http://localhost:4000/images/assetexploerwidget.png'
   text: 'A+ Assets Explorer is a better and easy to use assets explorer extension for Unity Editor.'
+  assetstore: https://www.assetstore.unity3d.com/#!/content/57335
 
 permalink: /index.html
 ---
