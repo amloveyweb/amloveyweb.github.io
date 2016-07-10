@@ -71,6 +71,17 @@ Below headers are support by A+ Assets Explorer currently. If you need more, wel
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
+FileSize |
+StorageSize |
+MaxSize |
+TextureFormat |
+R&W | Whether ReadWrite or not
+MM | Whether MipMap enabled or not
+Type | Texture type
+Width |
+Height |
+File Path |
+Unused | 
 
 
 #### Models
@@ -78,36 +89,83 @@ Name | File name of texture file
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
+FileSize | 
+VertexCount |
+Tris | 
+ScaleFactor |
+MeshCompression |
+OptimizeMesh |
+File Path |
+Unused |
 
 #### Audios
 
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
+ImportedSize |
+FileSize |
+Ratio |
+Frequency |
+Compress Format |
+Duration |
+Quality |
+Background |
+File path |
+Unused |
 
 #### Movies
 
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
+Approx | 
+Texture Size |
+Quality |
+Duration |
+File Path |
+Unused |
 
 #### Fonts
 
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
+FontNames | 
+FileSize |
+RenderingMode |
+Character |
+File Path |
+Unused |
 
 #### Materials
 
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
+FileSize | 
+Type | 
+Shader |
+File Path |
+Unused |
 
 #### Shaders
 
 Headers | Comments 
 --- | ---
-Name | File name of texture file 
+Name | Shader name
+FileName | 
+FileSize |
+RenderQueue |
+LOD |
+VariantsIncluded |
+VariantsTotal |
+SurfaceShader |
+CastShadows |
+IgnoreProjector |
+DisableBatching |
+File Path |
+Unused |
 
 
 </div><!-- /.medium-8.columns -->
