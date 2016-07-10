@@ -21,16 +21,46 @@ permalink: "/assetexplorer/manual"
 
 A+ Assets Explorer is a better assets explorer extension for Unity Editor, it's easy to use. It provides overview of assets and supports: Textures, Models, Materials, Audios, Movies, Fonts and Shaders.
 
-### Explorer 
+### Features 
 
-
+Let's watch a video first.
 <div class="flex-video">
   <iframe src="https://www.youtube.com/embed/2iDS5gJdwWE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-#### Assets overview
+### Open Asset Explorer
+
+Select the __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, or press shortcut __Cmd + SHIFT + W__ in macOS (i.e. OSX) or __Ctrl + SHIFT + W__ on Windows.
 
 #### Find unused assets
+
+Select the __Find unused assets__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, press __Ok__ in pop up dialog.
+
+#### Assets overview report
+
+Click the __Overview__ Tab in Assets Explorer window. __NOTICE:__ the report will show only after we have alreay trigger a build from Unity Editor.
+
+#### Locate assets in Unity
+
+There are two scenarios:
+
+* __Double click a row__ will ping the asset in Project Window of Unity Editor
+* __Select the checkbox of rows (one or more)__ and then __click the `Location` button__ in the Assets Explorer Window
+
+#### Customize table headers
+
+1. Open the setting dialog by __Click the `Columns` button__ in the Assets Explorer Window
+2. Check/uncheck the checkbox of each header will make it show/hide
+
+If you want to restore the default header settings, just __click the `Restore Default Header Settings` button__.
+
+#### Refresh table
+
+Click the `Refresh` button in the Assets Explorer Window
+
+#### Delete assets
+
+Select the assets you want to delete by check the CheckBox of the rows and __Click the `Remove` button__ in the Assets Explorer Window.
 
 ### Table Headers
 
@@ -41,6 +71,7 @@ Below headers are support by A+ Assets Explorer currently. If you need more, wel
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
+
 
 #### Models
 

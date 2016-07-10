@@ -1,15 +1,23 @@
 ---
 layout: page
-title: "Contact"
-meta_title: "Contact Amlovey"
-subheadline: ""
-teaser: ""
+title: "By"
+subheadline: "Get contact with Amlovey"
+teaser: "one of following ways:"
 permalink: "/contact/"
 ---
 
-Hi there, 
+### - Email
 
-I'm Amlovey. My email is <amlovey@qq.com>. 
+[amlovey@qq.com](mailto:amlovey@qq.com)
 
-Welcome to send me email if you have questions or issues.
+### - Open issue in Github
+
+<https://github.com/amloveyweb/amloveyweb.github.io/issues>
+
+### - Unity forums
+
+* [A+ Assets Explorer](https://community.unity.com/t/403471)
+
+
+#### Any __QUESTIONS__ or __ISSUES__, or even features requests, Welcome to send email to me. :)
 
