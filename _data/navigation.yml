@@ -39,9 +39,9 @@
     - title: "Screenshots"
       url: "/assetexplorer/screenshots"
 
-- title: "Search"
-  url: "/search"
-  side: right
+# - title: "Search"
+#   url: "/search"
+#   side: right
 
 - title: "Contact"
   url: "/contact/"
