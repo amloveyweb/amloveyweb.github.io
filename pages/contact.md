@@ -19,5 +19,5 @@ permalink: "/contact/"
 * [A+ Assets Explorer](https://community.unity.com/t/403471)
 
 
-#### Any __QUESTIONS__ or __ISSUES__, or even features requests, Welcome to send email to me. :)
+#### Any __QUESTIONS__ or __ISSUES__, or features requests, Welcome to send email to me. :)
 
