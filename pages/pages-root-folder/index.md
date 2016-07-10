@@ -10,7 +10,7 @@ header:
 
 widget1:
   title: "A+ Assets Explorer"
-  url: 'http://www.amlovey.com/assetsexplorer'
+  url: 'http://www.amlovey.com/assetexplorer'
   image: 'http://localhost:4000/images/assetexploerwidget.png'
   text: 'A+ Assets Explorer is a better and easy to use assets explorer extension for Unity Editor.'
 
