@@ -47,7 +47,8 @@
 		<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/mediaelement_js/mediaelementplayer.min.css" />
 	{% endif %}
 
+	{% include _baidu_analysis.html %}
+
 	{% unless page.style == NULL %}
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
-</head>
