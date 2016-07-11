@@ -37,7 +37,7 @@ improve_content: http://www.amlovey.com/edit/master
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://www.amlovey.com/images/'
+urlimg: 'https://www.amlovey.com/images'
 
 
 # Logo size is 600x80 pixels
