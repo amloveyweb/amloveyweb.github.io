@@ -154,10 +154,10 @@ Unused |
 Headers | Comments 
 --- | ---
 Name | Shader name
-FileName | 
-FileSize |
-RenderQueue |
-LOD |
+FileName | Name of shader file
+FileSize | Size of shader file
+RenderQueue | Render Queue
+LOD | Level of Detail
 VariantsIncluded |
 VariantsTotal |
 SurfaceShader |
