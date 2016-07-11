@@ -71,17 +71,17 @@ Below headers are support by A+ Assets Explorer currently. If you need more, wel
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
-FileSize |
-StorageSize |
-MaxSize |
-TextureFormat |
-R&W | Whether ReadWrite or not
-MM | Whether MipMap enabled or not
+FileSize | The file size of texture file
+StorageSize | Storage size of texture file
+MaxSize | Max size of texture
+TextureFormat | Texture format
+R&W | ReadWrite enable or not
+MM | MipMap enabled or not
 Type | Texture type
-Width |
-Height |
-File Path |
-Unused | 
+Width | Width of texture
+Height | Height of texture
+File Path | The file path of the texture file
+Unused | Used in the game or not
 
 
 #### Models
@@ -89,65 +89,65 @@ Unused |
 Headers | Comments 
 --- | ---
 Name | File name of texture file 
-FileSize | 
-VertexCount |
-Tris | 
-ScaleFactor |
-MeshCompression |
-OptimizeMesh |
-File Path |
-Unused |
+FileSize | The file size of model file
+VertexCount | Vertex count of model
+Tris | Tris count of model
+ScaleFactor | Scale factor of model
+MeshCompression | Compress mesh or not
+OptimizeMesh | Optimize mesh
+File Path | The file path of the model file
+Unused | Used in the game or not
 
 #### Audios
 
 Headers | Comments 
 --- | ---
-Name | File name of texture file 
-ImportedSize |
-FileSize |
-Ratio |
-Frequency |
-Compress Format |
-Duration |
-Quality |
-Background |
-File path |
-Unused |
+Name | File name of audio file 
+ImportedSize | The size after imported
+FileSize | The file size of audio file
+Ratio | Compress ratio
+Frequency | Audio frequency
+Compress Format | Compress format of audio
+Duration | Duration of the audio
+Quality | Quality of the audio 
+Background | Run in background
+File path | The file path of the audio file
+Unused | Used in the game or not
 
 #### Movies
 
 Headers | Comments 
 --- | ---
-Name | File name of texture file 
-Approx | 
-Texture Size |
-Quality |
-Duration |
-File Path |
-Unused |
+Name | File name of movie file 
+Approx | Approx size of the movie
+Texture Size | Texture size of the movie
+Quality | Quality of the movie
+Duration | The duration of the movie
+File Path | The file path of movies file
+Unused | Used in the game or not
 
 #### Fonts
 
 Headers | Comments 
 --- | ---
-Name | File name of texture file 
-FontNames | 
-FileSize |
-RenderingMode |
-Character |
-File Path |
-Unused |
+Name | File name of font file 
+FontNames | Font names
+FileSize |  File size of font file
+RenderingMode | Rendering mode
+Character | Character type
+File Path | The file path of font file
+Unused | Used in the game or not
 
 #### Materials
 
 Headers | Comments 
 --- | ---
-Name | File name of texture file 
-FileSize | 
-Type | 
-Shader |
-File Path |
-Unused |
+Name | File name of material file 
+FileSize | File size of material file
+Type | The type of material: Material or Physics Material
+Shader | The shader name that material used
+File Path | The file path of material file
+Unused | Used in the game or not
 
 #### Shaders
 
@@ -158,14 +158,14 @@ FileName | Name of shader file
 FileSize | Size of shader file
 RenderQueue | Render Queue
 LOD | Level of Detail
-VariantsIncluded |
-VariantsTotal |
-SurfaceShader |
-CastShadows |
-IgnoreProjector |
-DisableBatching |
-File Path |
-Unused |
+VariantsIncluded | Shader variants only in scene
+VariantsTotal | All shader variants
+SurfaceShader | has surface shader or not
+CastShadows | Cast shadows or not
+IgnoreProjector | Ignore projector or not
+DisableBatching | Batch is disabled or not
+File Path | The file path of shader file
+Unused | Used in the game or not
 
 
 </div><!-- /.medium-8.columns -->

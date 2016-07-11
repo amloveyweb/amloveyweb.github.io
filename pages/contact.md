@@ -12,7 +12,7 @@ permalink: "/contact/"
 
 ### - Open issues in Github
 
-<https://github.com/amloveyweb/amloveyweb.github.io/issues>
+<a href='https://github.com/amloveyweb/amloveyweb.github.io/issues' target='_blank'>https://github.com/.../issues</a>
 
 ### - Unity forums
 
