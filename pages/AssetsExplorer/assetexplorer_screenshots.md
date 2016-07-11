@@ -10,7 +10,7 @@ gallery:
     caption: Textures tab page 
   - image_url: models.png
     caption: Models tab page
-  - image_url: audios.png
+  - image_url: audios.jpg
     caption: Audios tab page
   - image_url: movies.png
     caption: Movies tab page
