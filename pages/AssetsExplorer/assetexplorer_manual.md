@@ -28,7 +28,7 @@ Let's watch a video first.
   <iframe src="https://www.youtube.com/embed/2iDS5gJdwWE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-### Open Asset Explorer
+#### Open Asset Explorer
 
 Select the __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, or press shortcut __Cmd + SHIFT + W__ in macOS (i.e. OSX) or __Ctrl + SHIFT + W__ on Windows.
 
