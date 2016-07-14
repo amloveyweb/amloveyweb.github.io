@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.0.6"
+teaser: "Required A+ Assets Explorer version 1.0.7"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -40,12 +40,21 @@ Select the __Find unused assets__ menu item from the __A+ Assets Explorer__ menu
 
 Click the __Overview__ Tab in Assets Explorer window. __NOTICE:__ the report will show only after we have alreay trigger a build from Unity Editor.
 
+#### Selection
+
+There are four ways to select assets in Assets Explorer:
+
+* Check the `checkbox` in the front of a row
+* Select all assets by check the `checkbox` in the table header
+* __SHIFT + Left mouse button click__ to bulk selection
+* __`CTRL` (on Windows)/`command` (On macOS/OSX) + Left mouse button click__ to toggle row selection
+
 #### Locate assets in Unity
 
 There are two scenarios:
 
 * __Double click a row__ will ping the asset in Project Window of Unity Editor
-* __Select the checkbox of rows (one or more)__ and then __click the `Location` button__ in the Assets Explorer Window
+* __Select rows (one or more)__ and then __click the `Location` button__ in the Assets Explorer Window
 
 #### Customize table headers
 
