@@ -30,7 +30,7 @@
   url: "/"
   side: right
 
-- title: "A+ Asses Explorer"
+- title: "A+ Assets Explorer"
   url: "/assetexplorer"
   side: right
   dropdown:
