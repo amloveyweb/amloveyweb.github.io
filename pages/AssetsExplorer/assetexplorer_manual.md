@@ -176,6 +176,9 @@ DisableBatching | Batch is disabled or not
 File Path | The file path of shader file
 Unused | Used in the game or not
 
+### Known Issues
+
+* Assets Explorer will not refresh data automatically after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now.
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
