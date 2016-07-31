@@ -104,7 +104,7 @@ FileSize | The file size of model file
 VertexCount | Vertex count of model
 Tris | Tris count of model
 ScaleFactor | Scale factor of model
-MeshCompression | Compress mesh or not
+MeshCmp | Compress mesh or not
 OptimizeMesh | Optimize mesh
 File Path | The file path of the model file
 Unused | Used in the game or not
