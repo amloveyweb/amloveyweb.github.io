@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.0.7"
+teaser: "Required A+ Assets Explorer version 1.0.8"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -87,6 +87,8 @@ TextureFormat | Texture format
 R&W | ReadWrite enable or not
 MM | MipMap enabled or not
 Type | Texture type
+WidthInPixel | Width of texture in pixel
+HeighInPixel | Height of texture in pixel
 Width | Width of texture
 Height | Height of texture
 File Path | The file path of the texture file
