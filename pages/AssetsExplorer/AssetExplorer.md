@@ -19,6 +19,6 @@ A+ Assets Explorer is a better assets explorer extension for Unity Editor, it's 
 
 __Sure, try it NOW !!__
 
-=> [Download directly](http://www.amlovey.com/assets/packages/A+%20Assets%20Explorer%20Free.unitypackage) 
+* =>>  [Download directly](http://www.amlovey.com/assets/packages/A+%20Assets%20Explorer%20Free.unitypackage) 
 
 
