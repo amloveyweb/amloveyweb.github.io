@@ -6,7 +6,7 @@
 #
 layout: video
 title: "Welcome to A+ Assets Explorer"
-iframe: "<iframe width='960' height='532' src='//www.youtube.com/embed/2iDS5gJdwWE' frameborder='0' allowfullscreen></iframe>"
+iframe: "<iframe width='960' height='532' src='//www.youtube.com/embed/gutPZcCU2fA' frameborder='0' allowfullscreen></iframe>"
 permalink: "/assetexplorer/"
 ---
 

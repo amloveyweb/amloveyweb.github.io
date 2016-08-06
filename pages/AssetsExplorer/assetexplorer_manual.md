@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.0.8"
+teaser: "Required A+ Assets Explorer version 1.0.9"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -19,13 +19,13 @@ permalink: "/assetexplorer/manual"
 
 ### Introduction
 
-A+ Assets Explorer is a better assets explorer extension for Unity Editor, it's easy to use. It provides overview of assets and supports: Textures, Models, Materials, Audios, Movies, Fonts and Shaders.
+A+ Assets Explorer is a better assets explorer extension for Unity Editor, it's easy to use. It provides overview of assets and supports: __Textures__, __Models__, __Animations__, __Materials__, __Audios__, __Movies__, __Fonts__ and __Shaders__.
 
 ### Features 
 
 Let's watch a video first.
 <div class="flex-video">
-  <iframe src="https://www.youtube.com/embed/2iDS5gJdwWE" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/gutPZcCU2fA" frameborder="0" allowfullscreen></iframe>
 </div>
 
 #### Open Asset Explorer
@@ -71,7 +71,16 @@ Click the `Refresh` button in the Assets Explorer Window
 
 Select the assets you want to delete by check the CheckBox of the rows and __Click the `Remove` button__ in the Assets Explorer Window.
 
-### Table Headers
+### Preferences Item
+
+#### Creating cache automatically
+
+Whether creating cache automatically. 
+
+* `checked` for creating cache data automatically every time re-open project. The is default setting
+* `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. 
+
+### Table Headers 
 
 Below headers are support by A+ Assets Explorer currently. If you need more, welcome to send [email](mailto:amlovey@qq.com) to me.
 
@@ -107,6 +116,20 @@ ScaleFactor | Scale factor of model
 MeshCmp | Compress mesh or not
 OptimizeMesh | Optimize mesh
 File Path | The file path of the model file
+Unused | Used in the game or not
+
+#### Animations
+
+Headers | Comments
+--- | ---
+Name | Name of animation
+In File | In which file
+Length | Frame Length 
+FPS | Frame per second
+LoopTime | Loop animation or not
+LoopPose | Loop pose or not
+CycleOffset | Cycle Offset
+Path | The file path of animation file
 Unused | Used in the game or not
 
 #### Audios
