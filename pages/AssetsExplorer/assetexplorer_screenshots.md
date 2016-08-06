@@ -6,24 +6,20 @@ teaser: ""
 permalink: "/assetexplorer/screenshots"
 
 gallery:
-  - image_url: textures.png
-    caption: Textures tab page 
-  - image_url: models.png
-    caption: Models tab page
-  - image_url: audios.jpg
-    caption: Audios tab page
-  - image_url: movies.png
-    caption: Movies tab page
+  - image_url: bulk-selection.png
+    caption: Bulk selection
+  - image_url: Search.png
+    caption: Assets name searching
+  - image_url: Select-in-Unity.png
+    caption: Select in unity Editor
+  - image_url: supporttypes.png
+    caption: All suppor types
   - image_url: overview.png
     caption: Overview table page, we can get a summary of app size or build size from this page.
-  - image_url: fonts.png
-    caption: Fonts tab page
-  - image_url: customizeHeaders.png
+  - image_url: unused-files.png
+    caption: Assets Explorer able to find unused filed 
+  - image_url: Header-customize.png
     caption: Table customize dialog
-  - image_url: materials.png
-    caption: Material tab page
-  - image_url: shaders.png
-    caption: Shader tab page
  
 ---
 
