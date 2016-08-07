@@ -80,6 +80,13 @@ Whether creating cache automatically.
 * `checked` for creating cache data automatically every time re-open project. The is default setting
 * `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. 
 
+### Using dockable window style
+
+Whether using dockable window style.
+
+* `checked` for yes
+* `Uncheck` for no
+
 ### Table Headers 
 
 Below headers are support by A+ Assets Explorer currently. If you need more, welcome to send [email](mailto:amlovey@qq.com) to me.
@@ -203,7 +210,7 @@ Unused | Used in the game or not
 
 ### Known Issues
 
-* Assets Explorer will not refresh data automatically after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now.
+* Assets Explorer will not refresh data automatically sometimes after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now.
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

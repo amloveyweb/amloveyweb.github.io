@@ -8,6 +8,8 @@ permalink: "/assetexplorer/screenshots"
 gallery:
   - image_url: bulk-selection.png
     caption: Bulk selection
+  - image_url: dockable-window.png
+    caption: dockable window
   - image_url: Search.png
     caption: Assets name searching
   - image_url: Select-in-Unity.png
