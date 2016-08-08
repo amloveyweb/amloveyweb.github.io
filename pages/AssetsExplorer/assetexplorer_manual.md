@@ -19,7 +19,18 @@ permalink: "/assetexplorer/manual"
 
 ### Introduction
 
-A+ Assets Explorer is a better assets explorer extension for Unity Editor, it's easy to use. It provides overview of assets and supports: __Textures__, __Models__, __Animations__, __Materials__, __Audios__, __Movies__, __Fonts__ and __Shaders__.
+A+ Assets Explorer is a better and easy to use assets explorer extension for Unity Editor. It provides a different style of overview and management of assets, and is ready for large project. 
+
+Supports: 
+
+* Textures 
+* Models 
+* Materials 
+* Animations 
+* Audios 
+* Movies
+* Fonts
+* Shaders.
 
 ### Features 
 
@@ -80,7 +91,7 @@ Whether creating cache automatically.
 * `checked` for creating cache data automatically every time re-open project. The is default setting
 * `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. 
 
-### Using dockable window style
+#### Using dockable window style
 
 Whether using dockable window style.
 
