@@ -88,15 +88,15 @@ Select the assets you want to delete by check the CheckBox of the rows and __Cli
 
 Whether creating cache automatically. 
 
-* `checked` for creating cache data automatically every time re-open project. The is default setting
+* `Checked` for creating cache data automatically every time re-open project. The is default setting
 * `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. 
 
 #### Using dockable window style
 
 Whether using dockable window style.
 
-* `checked` for yes
-* `Uncheck` for no
+* `Checked` for yes, dockable window style
+* `Uncheck` for no and will using utility window. Utility windows will always be in front of normal windows, and will be hidden when user switches to another application
 
 ### Table Headers 
 
