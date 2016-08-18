@@ -27,6 +27,7 @@ Supports:
 * Models 
 * Materials 
 * Animations 
+* Prefabs
 * Audios 
 * Movies
 * Fonts
@@ -84,7 +85,7 @@ Select the assets you want to delete by check the CheckBox of the rows and __Cli
 
 #### Quick Folder Opener
 
-Will open following path:
+The Quick Folder Opener can following path in both of Windows and macOS.
 
 * Application.dataPath
 * Application.persistentDataPath
@@ -92,7 +93,6 @@ Will open following path:
 * Application.temporaryCachePath
 * Asset Store Packages Folder
 * Editor Application Path
-
 
 ### Preferences Item
 

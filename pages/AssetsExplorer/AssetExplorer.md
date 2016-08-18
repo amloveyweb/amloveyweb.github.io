@@ -19,6 +19,7 @@ A+ Assets Explorer is a better and easy to use assets explorer extension for Uni
 
 __Sure, try it NOW !!__
 
-=> [Click here to download directly!!](http://www.amlovey.com/assets/packages/A+%20Assets%20Explorer%20Free.unitypackage) 
+=> [Click here to download directly!!](http://www.amlovey.com/assets/packages/A+%20Assets%20Explorer%20Free.unitypackage) <br>
+=> [Asset Store](https://www.assetstore.unity3d.com/en/#!/content/68761);
 
 
