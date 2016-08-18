@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.0.9"
+teaser: "Required A+ Assets Explorer version 1.1.0"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -82,6 +82,18 @@ Click the `Refresh` button in the Assets Explorer Window
 
 Select the assets you want to delete by check the CheckBox of the rows and __Click the `Remove` button__ in the Assets Explorer Window.
 
+#### Quick Folder Opener
+
+Will open following path:
+
+* Application.dataPath
+* Application.persistentDataPath
+* Application.streamingAssetsPath
+* Application.temporaryCachePath
+* Asset Store Packages Folder
+* Editor Application Path
+
+
 ### Preferences Item
 
 #### Creating cache automatically
@@ -133,6 +145,11 @@ Tris | Tris count of model
 ScaleFactor | Scale factor of model
 MeshCmp | Compress mesh or not
 OptimizeMesh | Optimize mesh
+R/W Enable | Is readable or not
+ImportBlendShapes | Should Unity import BlendShapes
+GenerateColliders | Should Unity generate mesh colliders for all meshes
+LightmapToUV2 | Generate lightmap UVs to UV2
+SwapUVs | Swaps the 2 UV channels in meshes. Use if your diffuse texture use UVs from lightmap 
 File Path | The file path of the model file
 Unused | Used in the game or not
 
@@ -222,6 +239,7 @@ Unused | Used in the game or not
 ### Known Issues
 
 * Assets Explorer will not refresh data automatically sometimes after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now.
+* Sometime, cache will broken by unexcepted operation and Assets Explorer will not display data. `Refresh cache data` will slove the issue.
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
