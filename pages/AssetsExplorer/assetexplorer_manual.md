@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.0"
+teaser: "Required A+ Assets Explorer version 1.1.1"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -31,14 +31,11 @@ Supports:
 * Audios 
 * Movies
 * Fonts
-* Shaders.
+* Shaders
+* Code files
+* StreamingAssets
 
 ### Features 
-
-Let's watch a video first.
-<div class="flex-video">
-  <iframe src="https://www.youtube.com/embed/gutPZcCU2fA" frameborder="0" allowfullscreen></iframe>
-</div>
 
 #### Open Asset Explorer
 
@@ -46,7 +43,7 @@ Select the __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in
 
 #### Find unused assets
 
-Select the __Find unused assets__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, press __Ok__ in pop up dialog.
+Select the __Find unused assets__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, press __Ok__ in pop up dialog. This feature is base on the build report of Unity, so it means the unused assets will not package into game application for current build target platform. __Just a reminder for you that__ double check the assets before delete it. Because the assets will not goes into game applicaiton, not means it's not used in Editor mode or other build target platform.
 
 #### Assets overview report
 
@@ -109,6 +106,10 @@ Whether using dockable window style.
 
 * `Checked` for yes, dockable window style
 * `Uncheck` for no and will using utility window. Utility windows will always be in front of normal windows, and will be hidden when user switches to another application
+
+#### Code File Extensions
+
+Customize the code file extension. Format as `*.[extensions]`. For example, CSharp file is "*.cs". Using `;` to combine multiple code files.
 
 ### Table Headers 
 
@@ -234,6 +235,23 @@ CastShadows | Cast shadows or not
 IgnoreProjector | Ignore projector or not
 DisableBatching | Batch is disabled or not
 File Path | The file path of shader file
+Unused | Used in the game or not
+
+#### StreamingAssets
+
+Headers | Comments
+--- | ---
+Name | File name
+FileSize | Size of file
+File Path | The file path of file
+Unused | Used in the game or not
+
+#### Code files
+Headers | Comments
+--- | ---
+Name | File name
+FileSize | Size of file
+File Path | The file path of file
 Unused | Used in the game or not
 
 ### Known Issues
