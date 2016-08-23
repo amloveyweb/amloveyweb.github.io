@@ -37,6 +37,8 @@ Supports:
 
 ### Features 
 
+Recommend you to watch the videos first: <https://www.youtube.com/user/TestaccountENUS>
+
 #### Open Asset Explorer
 
 Select the __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, or press shortcut __Cmd + SHIFT + W__ in macOS (i.e. OSX) or __Ctrl + SHIFT + W__ on Windows.
