@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.1"
+teaser: "Required A+ Assets Explorer version 1.1.2"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -258,7 +258,7 @@ Unused | Used in the game or not
 
 ### Known Issues
 
-* Assets Explorer will not refresh data automatically sometimes after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now.
+* Assets Explorer will not refresh data automatically sometimes after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now. __This issue was fixed after v1.1.2.__
 * Sometime, cache will broken by unexcepted operation and Assets Explorer will not display data. `Refresh cache data` will slove the issue.
 
 </div><!-- /.medium-8.columns -->
