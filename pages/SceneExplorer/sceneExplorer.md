@@ -1,8 +1,6 @@
 ---
 layout: page-fullwidth
 title: "Scene Explorer"
-subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.2"
 permalink: "/SceneExplorer/"
 ---
 <div class="row">
