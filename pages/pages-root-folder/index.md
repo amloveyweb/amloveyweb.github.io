@@ -12,8 +12,16 @@ widget1:
   title: "A+ Assets Explorer"
   url: 'http://www.amlovey.com/assetexplorer'
   image: 'http://www.amlovey.com/images/assetexploerwidget.jpg'
-  text: 'A+ Assets Explorer is a better and easy to use assets explorer extension for Unity Editor.'
+  text: 'A+ Assets Explorer is a better and easy to use assets explorer extension for Unity Editor'
   assetstore: https://www.assetstore.unity3d.com/#!/content/57335
+
+widget2:
+  title: "A+ Scene Explorer"
+  url: 'http://www.amlovey.com/assetexplorer'
+  image: ''
+  text: 'A+ Scene Explorer is a tool manage scenes and build settings'
+  assetstore: http://u3d.as/Aud
+
 
 permalink: /index.html
 ---
