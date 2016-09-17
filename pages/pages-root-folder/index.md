@@ -15,7 +15,7 @@ widget1:
   text: 'A+ Assets Explorer is a better and easy to use assets explorer extension for Unity Editor'
   assetstore: https://www.assetstore.unity3d.com/#!/content/57335
 
-widget2:
+widget1:
   title: "A+ Scene Explorer"
   url: 'http://www.amlovey.com/SceneExplorer/'
   image: ''
