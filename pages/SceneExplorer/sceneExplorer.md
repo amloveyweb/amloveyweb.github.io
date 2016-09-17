@@ -23,13 +23,18 @@ A+ Scene Explorer is a tool manage scenes and build settings.
     <iframe src="https://www.youtube.com/embed/UlNpYToz5gg" frameborder="0" allowfullscreen></iframe>
 </div>
 
-### Features
+### Features 
 
 #### Scene overview 
+
 #### Scene data reordering 
+
 #### Save/Load Build Settings 
+
 #### Config Build Settings 
-#### Ping Scene file in Project Window 
+
+#### Ping Scene file in Project Window   
+
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
