@@ -18,7 +18,7 @@ widget1:
 widget1:
   title: "A+ Scene Explorer"
   url: 'http://www.amlovey.com/SceneExplorer/'
-  image: ''
+  image: 'http://www.amlovey.com/images/assetexploerwidget.jpg'
   text: 'A+ Scene Explorer is a tool manage scenes and build settings'
   assetstore: http://u3d.as/Aud
 
