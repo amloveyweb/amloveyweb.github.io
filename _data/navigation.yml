@@ -39,7 +39,7 @@
     - title: "Screenshots"
       url: "/assetexplorer/screenshots"
 
-- title: "SceneExplorer"
+- title: "Scene Explorer"
   url: "/SceneExplorer"
   side: right
 
