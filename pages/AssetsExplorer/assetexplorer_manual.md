@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.2"
+teaser: "Required A+ Assets Explorer version 1.1.3"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -92,6 +92,10 @@ The Quick Folder Opener can following path in both of Windows and macOS.
 * Application.temporaryCachePath
 * Asset Store Packages Folder
 * Editor Application Path
+
+#### Scene Explorer
+
+More details see [this page](http://www.amlovey.com/SceneExplorer/).
 
 ### Preferences Item
 
