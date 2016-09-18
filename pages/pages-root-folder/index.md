@@ -12,7 +12,7 @@ widget1:
   title: "A+ Assets Explorer"
   url: 'http://www.amlovey.com/assetexplorer'
   image: 'http://www.amlovey.com/images/assetexploerwidget.jpg'
-  text: 'A+ Assets Explorer provides different style of assets management and workflow improvement tools.'
+  text: 'A+ Assets Explorer provides assets management and workflow improvement tools.'
   assetstore: https://www.assetstore.unity3d.com/#!/content/57335
 
 widget2:
