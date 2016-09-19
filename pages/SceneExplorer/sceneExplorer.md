@@ -23,6 +23,10 @@ A+ Scene Explorer is a tool manage scenes and build settings.
     <iframe src="https://www.youtube.com/embed/UlNpYToz5gg" frameborder="0" allowfullscreen></iframe>
 </div>
 
+### Open Scene Explorer
+
+Click the menu item __Window__ -> __Scene Explorer__
+
 ### Features 
 
 #### Scene overview 
