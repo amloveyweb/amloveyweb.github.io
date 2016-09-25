@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.3"
+teaser: "Required A+ Assets Explorer version 1.1.4"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -98,6 +98,14 @@ The Quick Folder Opener can following path in both of Windows and macOS.
 More details see [this page](http://www.amlovey.com/SceneExplorer/).
 
 ### Preferences Item
+
+#### Color Theme
+
+Currently Assets Explorer supports three theme:
+
+* __Classic:__ White theme, it's default setting.
+* __Personal:__ Grey theme, it's for Unity Personal Editor Skin.
+* __Pro:__ Black theme, it's for Unity Profressional Editor Skin.
 
 #### Creating cache automatically
 
