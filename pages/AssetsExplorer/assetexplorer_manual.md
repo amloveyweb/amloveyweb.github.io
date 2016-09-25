@@ -19,7 +19,7 @@ permalink: "/assetexplorer/manual"
 
 ### Introduction
 
-A+ Assets Explorer is an easy to use assets explorer extension for Unity Editor, provides a different style of overview and management of assets, and is ready for large project. It's not a replacement of Project Window of Unity Editor, but an enhancement.
+A+ Assets Explorer is an easy to use assets explorer extension for Unity Editor, provides different style of assets management and several workflow improvement tools. It is ready for large project.
 
 Supports: 
 
