@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.4"
+teaser: "Required A+ Assets Explorer version 1.1.5"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">

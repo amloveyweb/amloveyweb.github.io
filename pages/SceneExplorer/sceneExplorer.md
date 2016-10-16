@@ -20,7 +20,7 @@ permalink: "/SceneExplorer/"
 A+ Scene Explorer is a tool manage scenes and build settings.
 
 <div class="flex-video">
-    <iframe src="https://www.youtube.com/embed/UlNpYToz5gg" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/XUaFlTSxqMw" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Open Scene Explorer
@@ -31,14 +31,31 @@ Click the menu item __Window__ -> __Scene Explorer__
 
 #### Scene overview 
 
+Scene List view and the active scene of Unity Editor will be red color.
+
+#### Multi Selection
+
+Press `SHIFT` or `CMD/CTRL` key to multi Selection.
+
 #### Scene data reordering 
+
+Reordering the scene in list and build settings.
 
 #### Save/Load Build Settings 
 
-#### Config Build Settings 
+Save/Load build settings to/from local files.
 
-#### Ping Scene file in Project Window   
+#### Ping Scene files in Project Window   
 
+Find scene files in Project Window.
+
+#### Delete Scenes
+
+Delete Scene from Project and this operation supports multi selection.
+
+#### Active/Deactive in Build Settings
+
+Set the scene should be in Building Settings or not. Supports multi selection.
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
