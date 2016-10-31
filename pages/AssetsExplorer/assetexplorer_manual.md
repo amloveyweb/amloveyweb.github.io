@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.5"
+teaser: "Required A+ Assets Explorer version 1.1.6"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -66,6 +66,20 @@ There are two scenarios:
 
 * __Double click a row__ will ping the asset in Project Window of Unity Editor
 * __Select rows (one or more)__ and then __click the `Location` button__ in the Assets Explorer Window
+
+#### Search Assets
+
+Assets Explor supports search assets using UI and type search condition directly in __Search Input__ which is right corner of Asset Explorer UI.
+
+Assets Explorer support multiple asset properties search. Each search condition is `AND` logic. Take textures search for example:
+
+> `StorageSize:>1000 KB MaxSize:>1024`  
+>    
+>  _means:_
+>      
+>  search the texture with storage size is larger than 1000KB __and__ import parameter MaxSize is larger than 1024
+
+A video demo can found in <https://www.youtube.com/watch?v=MBwcCTyqhnc>.
 
 #### Customize table headers
 
