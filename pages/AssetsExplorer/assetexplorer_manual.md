@@ -79,7 +79,7 @@ For the format:
 
  - `[AssetPropertyDataHeader]` is the table header in Assets Explorer
  - `Colon`: the colon is Required, it connect data header and its value
- - `[>|<]` is optional for string type property. If it's not specified, it will default to `>` for number type property
+ - `[>|<]` is not required for string type property. If it's not specified, it will default to `>` for number type property
  - `[SearchValue]` is the property value we want to search
 
 __NOTE:__ if there are no valid search format, the input string will trust as the search vaule of __Name__ property of assets.
