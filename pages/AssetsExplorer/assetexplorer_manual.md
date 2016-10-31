@@ -150,6 +150,7 @@ Headers | Comments
 Name | File name of texture file 
 FileSize | The file size of texture file
 StorageSize | Storage size of texture file
+RuntimeSize | Runtime size of texture file
 MaxSize | Max size of texture
 TextureFormat | Texture format
 R&W | ReadWrite enable or not
