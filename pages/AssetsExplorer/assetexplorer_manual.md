@@ -71,7 +71,26 @@ There are two scenarios:
 
 Assets Explor supports search assets using UI and type search condition directly in __Search Input__ which is right corner of Asset Explorer UI.
 
-Assets Explorer support multiple asset properties search. Each search condition is `AND` logic. Take textures search for example:
+Assets Explorer support multiple asset properties search. For each property, the search condition format is 
+
+> [AssetPropertyDataHeader]:[>|<][SearchValue]  
+
+For the placeholder above:
+
+ - `[AssetPropertyDataHeader]` is the table header in Assets Explorer
+ - `Colon`: the colon is Required, it connect data header and its value
+ - `[>|<]` is optional for string type property. If it's not specified, it will default to `>` for number type property
+ - `[SearchValue]` is the property value we want to search
+
+__NOTE:__ if there are no valid search format, the input string will trust as the search vaule of __Name__ property of assets.
+
+Below is a sample for texture searching:
+
+> 1. `Name:icon` means searching the textures whose name contains 'icon' chars
+> 2. `StorageSize:>1024` means searching the textures whose storage size is larger than 1024 KB
+> 3. 'MaxSize:<2048' means searching the textures whose import parameter MaxSize is less than 2048
+
+For multiple conditions, each search condition will always be `AND` logic. Take textures search for example:
 
 > `StorageSize:>1000 KB MaxSize:>1024`  
 >    
@@ -79,7 +98,7 @@ Assets Explorer support multiple asset properties search. Each search condition 
 >      
 >  search the texture with storage size is larger than 1000KB __and__ import parameter MaxSize is larger than 1024
 
-A video demo can found in <https://www.youtube.com/watch?v=MBwcCTyqhnc>.
+A video demo also can found in <https://www.youtube.com/watch?v=MBwcCTyqhnc>.
 
 #### Customize table headers
 
