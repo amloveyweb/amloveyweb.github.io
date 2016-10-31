@@ -73,7 +73,7 @@ Assets Explor supports search assets using UI and type search condition directly
 
 Assets Explorer support multiple asset properties search. For each property, the search condition format is 
 
-> \[AssetPropertyDataHeader]&nbsp; : &nbsp;\[>|<] &nbsp;\[SearchValue]  
+> \[AssetPropertyDataHeader]&nbsp; : &nbsp;\[>\|<] &nbsp;\[SearchValue]  
 
 For the format:
 
