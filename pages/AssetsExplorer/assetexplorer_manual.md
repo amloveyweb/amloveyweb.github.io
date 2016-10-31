@@ -84,7 +84,7 @@ For the format:
 
 __NOTE:__ if there are no valid search format, the input string will trust as the search vaule of __Name__ property of assets.
 
-Below is a sample for texture searching:
+Below are samples for texture searching:
 
 > 1. `Name:icon` means searching the textures whose name contains 'icon' chars
 > 2. `StorageSize:>1024` means searching the textures whose storage size is larger than 1024 KB
