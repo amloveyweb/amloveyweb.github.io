@@ -69,17 +69,17 @@ There are two scenarios:
 
 #### Search Assets
 
-Assets Explor supports search assets using UI and type search condition directly in __Search Input__ which is right corner of Asset Explorer UI.
+Assets Explor supports search assets using UI and type search condition directly in __Search Input__ on right corner of Asset Explorer UI.
 
-Assets Explorer support multiple asset properties search. For each property, the search condition format is 
+Assets Explorer supports multiple asset properties search. For each property, the search condition format is 
 
 > \[AssetPropertyDataHeader]&nbsp; : &nbsp;\[>\|<] &nbsp;\[SearchValue]  
 
-For the format:
+For the above format:
 
  - `[AssetPropertyDataHeader]` is the table header in Assets Explorer
- - `Colon`: the colon is Required, it connect data header and its value
- - `[>|<]` is not required for string type property. If it's not specified, it will default to `>` for number type property
+ - `Colon` is Required, it connects data header and its value
+ - `[>|<]` is not needed for string type property. For number type property, if it's not specified, it will default to `>`
  - `[SearchValue]` is the property value we want to search
 
 __NOTE:__ if there are no valid search format, the input string will trust as the search vaule of __Name__ property of assets.
@@ -164,159 +164,159 @@ Below headers are support by A+ Assets Explorer currently. If you need more, wel
 
 #### Textures
 
-Headers | Comments 
---- | ---
-Name | File name of texture file 
-FileSize | The file size of texture file
-StorageSize | Storage size of texture file
-RuntimeSize | Runtime size of texture file
-MaxSize | Max size of texture
-TextureFormat | Texture format
-R&W | ReadWrite enable or not
-MM | MipMap enabled or not
-Type | Texture type
-WidthInPixel | Width of texture in pixel
-HeighInPixel | Height of texture in pixel
-Width | Width of texture
-Height | Height of texture
-File Path | The file path of the texture file
-Unused | Used in the game or not
+Headers | data type | Comments 
+--- | --- | --- 
+Name | string | File name of texture file 
+FileSize | number | The file size of texture file
+StorageSize | number | Storage size of texture file
+RuntimeSize | number | Runtime size of texture file
+MaxSize | number | Max size of texture
+TextureFormat | string | Texture format
+R&W | boolean | ReadWrite enable or not
+MM | boolean | MipMap enabled or not
+Type | string | Texture type
+WidthInPixel | number | Width of texture in pixel
+HeighInPixel | number | Height of texture in pixel
+Width | number | Width of texture
+Height | number | Height of texture
+File Path | string | The file path of the texture file
+Unused | boolean | Used in the game or not
 
 
 #### Models
 
-Headers | Comments 
---- | ---
-Name | File name of texture file 
-FileSize | The file size of model file
-VertexCount | Vertex count of model
-Tris | Tris count of model
-ScaleFactor | Scale factor of model
-MeshCmp | Compress mesh or not
-OptimizeMesh | Optimize mesh
-R/W Enable | Is readable or not
-ImportBlendShapes | Should Unity import BlendShapes
-GenerateColliders | Should Unity generate mesh colliders for all meshes
-LightmapToUV2 | Generate lightmap UVs to UV2
-SwapUVs | Swaps the 2 UV channels in meshes. Use if your diffuse texture use UVs from lightmap 
-File Path | The file path of the model file
-Unused | Used in the game or not
+Headers | data type | Comments 
+--- | --- | ---
+Name | string | File name of texture file 
+FileSize | number | The file size of model file
+VertexCount | number | Vertex count of model
+Tris | number | Tris count of model
+ScaleFactor | number | Scale factor of model
+MeshCompress | boolean | Compress mesh or not
+OptimizeMesh | boolean |  Optimize mesh
+R/W Enable | boolean | Is readable or not
+ImportBlendShapes | boolean | Should Unity import BlendShapes
+GenerateColliders | boolean | Should Unity generate mesh colliders for all meshes
+LightmapToUV2 | boolean | Generate lightmap UVs to UV2
+SwapUVs | boolean | Swaps the 2 UV channels in meshes. Use if your diffuse texture use UVs from lightmap 
+File Path | string | The file path of the model file
+Unused | boolean | Used in the game or not
 
 #### Animations
 
-Headers | Comments
---- | ---
-Name | Name of animation
-In File | In which file
-Length | Frame Length 
-FPS | Frame per second
-LoopTime | Loop animation or not
-LoopPose | Loop pose or not
-CycleOffset | Cycle Offset
-Path | The file path of animation file
-Unused | Used in the game or not
+Headers | data type | Comments
+--- | --- | ---
+Name | string | Name of animation
+In File | string | In which file
+Length | number | Frame Length 
+FPS | number | Frame per second
+LoopTime | boolean | Loop animation or not
+LoopPose | boolean | Loop pose or not
+CycleOffset | number | Cycle Offset
+Path | string | The file path of animation file
+Unused | boolean | Used in the game or not
 
 #### Audios
 
-Headers | Comments 
---- | ---
-Name | File name of audio file 
-ImportedSize | The size after imported
-FileSize | The file size of audio file
-Ratio | Compress ratio
-Frequency | Audio frequency
-Compress Format | Compress format of audio
-Duration | Duration of the audio
-Quality | Quality of the audio 
-Background | Run in background
-File path | The file path of the audio file
-Unused | Used in the game or not
+Headers | data type | Comments 
+--- | --- | ---
+Name | string | File name of audio file 
+ImportedSize | number | The size after imported
+FileSize | number | The file size of audio file
+Ratio | number | Compress ratio
+Frequency | number | Audio frequency
+Compress Format | string | Compress format of audio
+Duration | number | Duration of the audio
+Quality | number | Quality of the audio 
+Background | boolean | Run in background
+File path | string | The file path of the audio file
+Unused | boolean | Used in the game or not
 
 #### Movies
 
-Headers | Comments 
---- | ---
-Name | File name of movie file 
-Approx | Approx size of the movie
-Texture Size | Texture size of the movie
-Quality | Quality of the movie
-Duration | The duration of the movie
-File Path | The file path of movies file
-Unused | Used in the game or not
+Headers | data type | Comments 
+--- | --- | ---
+Name | string | File name of movie file 
+Approx | number | Approx size of the movie
+Texture Size | number | Texture size of the movie
+Quality | number | Quality of the movie
+Duration | number | The duration of the movie
+File Path | string | The file path of movies file
+Unused | boolean |Used in the game or not
 
 #### Fonts
 
-Headers | Comments 
---- | ---
-Name | File name of font file 
-FontNames | Font names
-FileSize |  File size of font file
-RenderingMode | Rendering mode
-Character | Character type
-File Path | The file path of font file
-Unused | Used in the game or not
+Headers | data type | Comments 
+--- | --- | ---
+Name | string | File name of font file 
+FontNames | string | Font names
+FileSize | number | File size of font file
+RenderingMode | string |Rendering mode
+Character | string | Character type
+File Path | string | The file path of font file
+Unused | boolean | Used in the game or not
 
 #### Materials
 
-Headers | Comments 
---- | ---
-Name | File name of material file 
-FileSize | File size of material file
-Type | The type of material: Material or Physics Material
-Shader | The shader name that material used
-File Path | The file path of material file
-Unused | Used in the game or not
+Headers | data type | Comments 
+--- | --- | ---
+Name | string | File name of material file 
+FileSize | number | File size of material file
+Type | string | The type of material: Material or Physics Material
+Shader | string | The shader name that material used
+File Path | string | The file path of material file
+Unused | boolean | Used in the game or not
 
 #### Shaders
 
-Headers | Comments 
---- | ---
-Name | Shader name
-FileName | Name of shader file
-FileSize | Size of shader file
-RenderQueue | Render Queue
-LOD | Level of Detail
-VariantsIncluded | Shader variants only in scene
-VariantsTotal | All shader variants
-SurfaceShader | has surface shader or not
-CastShadows | Cast shadows or not
-IgnoreProjector | Ignore projector or not
-DisableBatching | Batch is disabled or not
-File Path | The file path of shader file
-Unused | Used in the game or not
+Headers | data type | Comments 
+--- | --- | --- 
+Name | string | Shader name
+FileName | string | Name of shader file
+FileSize | number | Size of shader file
+RenderQueueText | string | Render Queue in text
+RenderQueue | number | Render Queue in number
+LOD | number | Level of Detail
+VariantsIncluded | number | Shader variants only in scene
+VariantsTotal | number | All shader variants
+SurfaceShader | boolean | has surface shader or not
+CastShadows | boolean | Cast shadows or not
+IgnoreProjector | boolean | Ignore projector or not
+DisableBatching | string | Batch is disabled or not
+File Path | string | The file path of shader file
+Unused | boolean | Used in the game or not
 
 #### StreamingAssets
 
-Headers | Comments
---- | ---
-Name | File name
-FileSize | Size of file
-File Path | The file path of file
-Unused | Used in the game or not
+Headers | data type | Comments
+--- | --- | ---
+Name | string | File name
+FileSize | number | Size of file
+File Path | string | The file path of file
+Unused | boolean | Used in the game or not
 
 #### Code files
 
 
-Headers | Comments
---- | ---
-Name | File name
-FileSize | Size of file
-File Path | The file path of file
-Unused | Used in the game or not
+Headers | data type | Comments
+--- | --- | --- 
+Name | string | File name
+FileSize | number | Size of file
+File Path | string | The file path of file
+Unused | boolean | Used in the game or not
 
 ### Known Issues
 
 * Assets Explorer will not refresh data automatically sometimes after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now. __This issue was fixed after v1.1.2.__
 * Sometime, cache will broken by unexcepted operation and Assets Explorer will not display data. `Refresh cache data` will slove the issue.
 
-</div><!-- /.medium-8.columns -->
-</div><!-- /.row -->
-
-<br/>
+### Get A+ Asset Explorer
 <br/>
 <br/>
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/57335/widget-wide?aid=1011lGoJ" style="width:600px; height:130px; border:0px;"></iframe>
 <br>
 <br>
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/list/top-paid/widget-wide-light?aid=1011lGoJ" style="width:600px; height:100px; border:0px;"></iframe>
+</div><!-- /.medium-8.columns -->
+</div><!-- /.row -->
 
