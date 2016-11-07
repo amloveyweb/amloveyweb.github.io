@@ -36,8 +36,8 @@
   dropdown:
     - title: "Manual"
       url: "/assetexplorer/manual"
-    - title: "Screenshots"
-      url: "/assetexplorer/screenshots"
+    # - title: "Screenshots"
+    #   url: "/assetexplorer/screenshots"
 
 - title: "Scene Explorer"
   url: "/SceneExplorer"
