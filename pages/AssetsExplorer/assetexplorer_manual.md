@@ -37,7 +37,7 @@ Supports:
 
 ### Features 
 
-Recommend you to watch the videos first: <https://www.youtube.com/user/TestaccountENUS>
+Recommend you to watch the videos first: [youtube link](https://www.youtube.com/watch?v=CqNHID7MUtU&list=PL3XG0iL-vL4WDXFvFHONBInQm__fQcWR5&index=2)
 
 #### Open Asset Explorer
 
