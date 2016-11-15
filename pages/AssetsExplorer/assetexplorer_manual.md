@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.6"
+teaser: "Required A+ Assets Explorer version 1.1.7"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -80,13 +80,13 @@ For the above format:
  - `[AssetPropertyDataHeader]` is the table header in Assets Explorer
  - `Colon` is Required, it connects data header and its value
  - `[>|<]` is not needed for string type property. For number type property, if it's not specified, it will default to `>`
- - `[SearchValue]` is the property value we want to search
+ - `[SearchValue]` is the property value we want to search. For string type, if you have serveral keywords to search, use `|` to connect them
 
 __NOTE:__ if there are no valid search format, the input string will trust as the search vaule of __Name__ property of assets.
 
 Below are samples for texture searching:
 
-> 1. `Name:icon` means searching the textures whose name contains 'icon' chars
+> 1. `Name:icon` means searching the textures whose name __contains__ 'icon' chars
 > 2. `StorageSize:>1024` means searching the textures whose storage size is larger than 1024 KB
 > 3. `MaxSize:<2048` means searching the textures whose import parameter MaxSize is less than 2048
 
@@ -98,7 +98,28 @@ For multiple conditions, each search condition will always be `AND` logic. Take 
 >      
 >  search the texture with storage size is larger than 1000KB __and__ import parameter MaxSize is larger than 1024
 
+The multipe values sample:
+
+> `Name: icon | body` means search the texture whose name __contains__ 'icon' __OR__ 'body'
+
+
 A video demo also can found in <https://www.youtube.com/watch?v=MBwcCTyqhnc>.
+
+#### Find References in Project
+
+Find the references of the selected assets, the inverse operation of __Find Dependencies__ which Unity provide.
+
+#### Find References By Type
+
+Find the specified type references of selected assets. For eaxmple, if you select __By Modal__, the result will only contains model assets.
+
+#### Show In Assets Explorer
+
+Show the selected assets in Assets Explorer. Its only works when Assets Explorer is open and the selected assets are same type.
+
+#### Select Assets in Selection
+
+Filter the selection by type. 
 
 #### Customize table headers
 
@@ -316,6 +337,28 @@ Unused | boolean | Used in the game or not
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/57335/widget-wide?aid=1011lGoJ" style="width:600px; height:130px; border:0px;"></iframe>
 <br>
 <br>
+
+### Release note:
+
+__v1.1.7__
+
+1. Add blacklist feature 
+2. Add asset icon 
+3. Add find references in Project or by type feateure 
+4. Change default settings for windows style 
+5. Update folder structure. Please delete and then reimport new A+ Assets Explorer assets. 
+6. Reduce packages size 7. Improve profermance for syncing data after bulk edit assets. 
+7. Some bugs fixes
+
+
+__v1.1.6__
+
+1. improve asset search feature. We can search multiple properties now. 
+2. Update modal UI 
+3. update men items 
+4. Reduce packages size 
+5. fix some small bugs
+
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/list/top-paid/widget-wide-light?aid=1011lGoJ" style="width:600px; height:100px; border:0px;"></iframe>
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
