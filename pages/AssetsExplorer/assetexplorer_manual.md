@@ -355,9 +355,8 @@ __v1.1.6__
 
 1. improve asset search feature. We can search multiple properties now. 
 2. Update modal UI 
-3. update men items 
-4. Reduce packages size 
-5. fix some small bugs
+3. Reduce packages size 
+4. fix some small bugs
 
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/list/top-paid/widget-wide-light?aid=1011lGoJ" style="width:600px; height:100px; border:0px;"></iframe>
 </div><!-- /.medium-8.columns -->
