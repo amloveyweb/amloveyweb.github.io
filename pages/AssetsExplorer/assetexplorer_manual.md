@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.7"
+teaser: "Required A+ Assets Explorer version 1.1.8"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -150,6 +150,10 @@ The Quick Folder Opener can following path in both of Windows and macOS.
 #### Scene Explorer
 
 More details see [this page](http://www.amlovey.com/SceneExplorer/).
+
+#### Export Data to CSV
+
+Via the Menu __Tools__ -> __A+ Assets Explorer__ -> __Data Exporter__ -> __Export to CSV__.
 
 ### Preferences Item
 
@@ -339,6 +343,11 @@ Unused | boolean | Used in the game or not
 <br>
 
 ### Release note:
+
+__v1.1.8__
+
+1. Able to export data to CSV file now 
+2. Some bug fixes
 
 __v1.1.7__
 
