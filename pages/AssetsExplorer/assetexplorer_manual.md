@@ -153,7 +153,7 @@ More details see [this page](http://www.amlovey.com/SceneExplorer/).
 
 #### Export Data to CSV
 
-Via the Menu __Tools__ -> __A+ Assets Explorer__ -> __Data Exporter__ -> __Export to CSV__.
+Via the Menu __Tools__ -> __A+ Assets Explorer__ -> __Data Exporter__ -> __Export as CSV...__.
 
 ### Preferences Item
 
