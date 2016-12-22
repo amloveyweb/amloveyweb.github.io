@@ -39,9 +39,9 @@
     # - title: "Screenshots"
     #   url: "/assetexplorer/screenshots"
 
-- title: "Scene Explorer"
-  url: "/SceneExplorer"
-  side: right
+# - title: "Scene Explorer"
+#   url: "/SceneExplorer"
+#   side: right
 
 - title: "Contact"
   url: "/contact/"
