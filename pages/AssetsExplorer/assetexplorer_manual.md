@@ -169,8 +169,8 @@ Currently Assets Explorer supports three theme:
 
 Whether creating cache automatically. 
 
-* `Checked` for creating cache data automatically every time re-open project. The is default setting
-* `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. 
+* `Checked` for creating cache data automatically every time re-open project. 
+* `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. The is default setting
 
 #### Using dockable window style
 
