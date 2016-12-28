@@ -17,14 +17,6 @@ permalink: "/assetexplorer/manual"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-A+ Assets Explorer
----
-This documents requires A+ Assets Explorer Version 1.1.9.
-
-__Table Of Content__
-
-[TOC
-
 ## Introduction
 
 A+ Assets Explorer is an easy to use assets explorer extension for Unity Editor, provides different style of assets management and several workflow improvement tools. It is ready for large project.
