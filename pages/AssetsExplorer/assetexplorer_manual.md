@@ -17,7 +17,7 @@ permalink: "/assetexplorer/manual"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-### Introduction
+## Introduction
 
 A+ Assets Explorer is an easy to use assets explorer extension for Unity Editor, provides different style of assets management and several workflow improvement tools. It is ready for large project.
 
@@ -35,23 +35,23 @@ Supports:
 * Code files
 * StreamingAssets
 
-### Features 
+## Features 
 
 Recommend you to watch the videos first: [youtube link](https://www.youtube.com/watch?v=CqNHID7MUtU&list=PL3XG0iL-vL4WDXFvFHONBInQm__fQcWR5&index=2)
 
-#### Open Asset Explorer
+### Open Asset Explorer
 
 Select the __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, or press shortcut __Cmd + SHIFT + W__ in macOS (i.e. OSX) or __Ctrl + SHIFT + W__ on Windows.
 
-#### Find unused assets
+### Find unused assets
 
 Select the __Find unused assets__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, press __Ok__ in pop up dialog. This feature is base on the build report of Unity, so it means the unused assets will not package into game application for current build target platform. __Just a reminder for you that__ double check the assets before delete it. Because the assets will not goes into game applicaiton, not means it's not used in Editor mode or other build target platform.
 
-#### Assets overview report
+### Assets overview report
 
 Click the __Overview__ Tab in Assets Explorer window. __NOTICE:__ the report will show only after we have alreay trigger a build from Unity Editor.
 
-#### Selection
+### Selection
 
 There are four ways to select assets in Assets Explorer:
 
@@ -60,14 +60,14 @@ There are four ways to select assets in Assets Explorer:
 * __SHIFT + Left mouse button click__ to bulk selection
 * __`CTRL` (on Windows)/`command` (On macOS/OSX) + Left mouse button click__ to toggle row selection
 
-#### Locate assets in Unity
+### Locate assets in Unity
 
 There are two scenarios:
 
 * __Double click a row__ will ping the asset in Project Window of Unity Editor
 * __Select rows (one or more)__ and then __click the `Location` button__ in the Assets Explorer Window
 
-#### Search Assets
+### Search Assets
 
 Assets Explor supports search assets using UI and type search condition directly in __Search Input__ on right corner of Asset Explorer UI.
 
@@ -105,38 +105,38 @@ The multipe values sample:
 
 A video demo also can found in <https://www.youtube.com/watch?v=MBwcCTyqhnc>.
 
-#### Find References in Project
+### Find References in Project
 
 Find the references of the selected assets, the inverse operation of __Find Dependencies__ which Unity provide.
 
-#### Find References By Type
+### Find References By Type
 
 Find the specified type references of selected assets. For eaxmple, if you select __By Modal__, the result will only contains model assets.
 
-#### Show In Assets Explorer
+### Show In Assets Explorer
 
 Show the selected assets in Assets Explorer. Its only works when Assets Explorer is open and the selected assets are same type.
 
-#### Select Assets in Selection
+### Select Assets in Selection
 
 Filter the selection by type. 
 
-#### Customize table headers
+### Customize table headers
 
 1. Open the setting dialog by __Click the `Columns` button__ in the Assets Explorer Window
 2. Check/uncheck the checkbox of each header will make it show/hide
 
 If you want to restore the default header settings, just __click the `Restore Default Header Settings` button__.
 
-#### Refresh table
+### Refresh table
 
 Click the `Refresh` button in the Assets Explorer Window
 
-#### Delete assets
+### Delete assets
 
 Select the assets you want to delete by check the CheckBox of the rows and __Click the `Remove` button__ in the Assets Explorer Window.
 
-#### Quick Folder Opener
+### Quick Folder Opener
 
 The Quick Folder Opener can following path in both of Windows and macOS.
 
@@ -147,17 +147,17 @@ The Quick Folder Opener can following path in both of Windows and macOS.
 * Asset Store Packages Folder
 * Editor Application Path
 
-#### Scene Explorer
+### Scene Explorer
 
 More details see [this page](http://www.amlovey.com/SceneExplorer/).
 
-#### Export Data to CSV
+### Export Data to CSV
 
 Via the Menu __Tools__ -> __A+ Assets Explorer__ -> __Data Exporter__ -> __Export as CSV...__.
 
-### Preferences Item
+## Preferences Item
 
-#### Color Theme
+### Color Theme
 
 Currently Assets Explorer supports three theme:
 
@@ -165,29 +165,29 @@ Currently Assets Explorer supports three theme:
 * __Personal:__ Grey theme, it's for Unity Personal Editor Skin.
 * __Pro:__ Black theme, it's for Unity Profressional Editor Skin.
 
-#### Creating cache automatically
+### Creating cache automatically
 
 Whether creating cache automatically. 
 
 * `Checked` for creating cache data automatically every time re-open project. 
 * `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. The is default setting
 
-#### Using dockable window style
+### Using dockable window style
 
 Whether using dockable window style.
 
 * `Checked` for yes, dockable window style
 * `Uncheck` for no and will using utility window. Utility windows will always be in front of normal windows, and will be hidden when user switches to another application
 
-#### Code File Extensions
+### Code File Extensions
 
 Customize the code file extension. Format as `*.[extensions]`. For example, CSharp file is "*.cs". Using `;` to combine multiple code files.
 
-### Table Headers 
+## Table Headers 
 
 Below headers are support by A+ Assets Explorer currently. If you need more, welcome to send [email](mailto:amlovey@qq.com) to me.
 
-#### Textures
+### Textures
 
 Headers | data type | Comments 
 --- | --- | --- 
@@ -208,7 +208,7 @@ File Path | string | The file path of the texture file
 Unused | boolean | Used in the game or not
 
 
-#### Models
+### Models
 
 Headers | data type | Comments 
 --- | --- | ---
@@ -227,7 +227,7 @@ SwapUVs | boolean | Swaps the 2 UV channels in meshes. Use if your diffuse textu
 File Path | string | The file path of the model file
 Unused | boolean | Used in the game or not
 
-#### Animations
+### Animations
 
 Headers | data type | Comments
 --- | --- | ---
@@ -241,7 +241,7 @@ CycleOffset | number | Cycle Offset
 Path | string | The file path of animation file
 Unused | boolean | Used in the game or not
 
-#### Audios
+### Audios
 
 Headers | data type | Comments 
 --- | --- | ---
@@ -257,7 +257,7 @@ Background | boolean | Run in background
 File path | string | The file path of the audio file
 Unused | boolean | Used in the game or not
 
-#### Movies
+### Movies
 
 Headers | data type | Comments 
 --- | --- | ---
@@ -269,7 +269,7 @@ Duration | number | The duration of the movie
 File Path | string | The file path of movies file
 Unused | boolean |Used in the game or not
 
-#### Fonts
+### Fonts
 
 Headers | data type | Comments 
 --- | --- | ---
@@ -281,7 +281,7 @@ Character | string | Character type
 File Path | string | The file path of font file
 Unused | boolean | Used in the game or not
 
-#### Materials
+### Materials
 
 Headers | data type | Comments 
 --- | --- | ---
@@ -292,7 +292,7 @@ Shader | string | The shader name that material used
 File Path | string | The file path of material file
 Unused | boolean | Used in the game or not
 
-#### Shaders
+### Shaders
 
 Headers | data type | Comments 
 --- | --- | --- 
@@ -311,7 +311,7 @@ DisableBatching | string | Batch is disabled or not
 File Path | string | The file path of shader file
 Unused | boolean | Used in the game or not
 
-#### StreamingAssets
+### StreamingAssets
 
 Headers | data type | Comments
 --- | --- | ---
@@ -320,7 +320,7 @@ FileSize | number | Size of file
 File Path | string | The file path of file
 Unused | boolean | Used in the game or not
 
-#### Code files
+### Code files
 
 
 Headers | data type | Comments
@@ -330,19 +330,27 @@ FileSize | number | Size of file
 File Path | string | The file path of file
 Unused | boolean | Used in the game or not
 
-### Known Issues
+## Known Issues
 
 * Assets Explorer will not refresh data automatically sometimes after click `play` button or you change your scripts. Re-open the Assets Explor is a workaround for this issue for now. __This issue was fixed after v1.1.2.__
 * Sometime, cache will broken by unexcepted operation and Assets Explorer will not display data. `Refresh cache data` will slove the issue.
 
-### Get A+ Asset Explorer
+## Get A+ Asset Explorer
 <br/>
 <br/>
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/57335/widget-wide?aid=1011lGoJ" style="width:600px; height:130px; border:0px;"></iframe>
 <br>
 <br>
 
-### Release note:
+## Release note:
+__v1.1.9__
+
+1. Supports Unity 5.5 
+2. Add prefab tool which support bulk operations, like creating, apply and revert etc. 
+3. Add rename tool which allows rename assets at one click 
+4. Rename "Scene Explorer" To "Build Manager" 
+5. Update UI to make it more sense 
+6. Fix some bugs
 
 __v1.1.8__
 
@@ -366,7 +374,6 @@ __v1.1.6__
 2. Update modal UI 
 3. Reduce packages size 
 4. fix some small bugs
-
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/list/top-paid/widget-wide-light?aid=1011lGoJ" style="width:600px; height:100px; border:0px;"></iframe>
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
