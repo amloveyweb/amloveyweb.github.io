@@ -17,11 +17,19 @@ permalink: "/assetexplorer/manual"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
+A+ Assets Explorer
+---
+This documents requires A+ Assets Explorer Version 1.1.9.
+
+__Table Of Content__
+
+[TOC
+
 ## Introduction
 
 A+ Assets Explorer is an easy to use assets explorer extension for Unity Editor, provides different style of assets management and several workflow improvement tools. It is ready for large project.
 
-Supports: 
+__Support Assets:__
 
 * Textures 
 * Models 
@@ -37,73 +45,38 @@ Supports:
 
 ## Features 
 
-Recommend you to watch the videos first: [youtube link](https://www.youtube.com/watch?v=CqNHID7MUtU&list=PL3XG0iL-vL4WDXFvFHONBInQm__fQcWR5&index=2)
-
-### Open Asset Explorer
-
-Select the __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, or press shortcut __Cmd + SHIFT + W__ in macOS (i.e. OSX) or __Ctrl + SHIFT + W__ on Windows.
-
-### Find unused assets
-
-Select the __Find unused assets__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, press __Ok__ in pop up dialog. This feature is base on the build report of Unity, so it means the unused assets will not package into game application for current build target platform. __Just a reminder for you that__ double check the assets before delete it. Because the assets will not goes into game applicaiton, not means it's not used in Editor mode or other build target platform.
+Recommend you to watch these videos first: [youtube link](https://www.youtube.com/watch?v=CqNHID7MUtU&list=PL3XG0iL-vL4WDXFvFHONBInQm__fQcWR5&index=2)
 
 ### Assets overview report
 
-Click the __Overview__ Tab in Assets Explorer window. __NOTICE:__ the report will show only after we have alreay trigger a build from Unity Editor.
+Click the __Overview__ Tab in Assets Explorer window. 
 
-### Selection
-
-There are four ways to select assets in Assets Explorer:
-
-* Check the `checkbox` in the front of a row
-* Select all assets by check the `checkbox` in the table header
-* __SHIFT + Left mouse button click__ to bulk selection
-* __`CTRL` (on Windows)/`command` (On macOS/OSX) + Left mouse button click__ to toggle row selection
-
-### Locate assets in Unity
-
-There are two scenarios:
-
-* __Double click a row__ will ping the asset in Project Window of Unity Editor
-* __Select rows (one or more)__ and then __click the `Location` button__ in the Assets Explorer Window
-
-### Search Assets
-
-Assets Explor supports search assets using UI and type search condition directly in __Search Input__ on right corner of Asset Explorer UI.
-
-Assets Explorer supports multiple asset properties search. For each property, the search condition format is 
-
-> \[AssetPropertyDataHeader]&nbsp; : &nbsp;\[>\|<] &nbsp;\[SearchValue]  
-
-For the above format:
-
- - `[AssetPropertyDataHeader]` is the table header in Assets Explorer
- - `Colon` is Required, it connects data header and its value
- - `[>|<]` is not needed for string type property. For number type property, if it's not specified, it will default to `>`
- - `[SearchValue]` is the property value we want to search. For string type, if you have serveral keywords to search, use `|` to connect them
-
-__NOTE:__ if there are no valid search format, the input string will trust as the search vaule of __Name__ property of assets.
-
-Below are samples for texture searching:
-
-> 1. `Name:icon` means searching the textures whose name __contains__ 'icon' chars
-> 2. `StorageSize:>1024` means searching the textures whose storage size is larger than 1024 KB
-> 3. `MaxSize:<2048` means searching the textures whose import parameter MaxSize is less than 2048
-
-For multiple conditions, each search condition will always be `AND` logic. Take textures search for example:
-
-> `StorageSize:>1000 KB MaxSize:>1024`  
->    
->  _means:_
->      
->  search the texture with storage size is larger than 1000KB __and__ import parameter MaxSize is larger than 1024
-
-The multipe values sample:
-
-> `Name: icon | body` means search the texture whose name __contains__ 'icon' __OR__ 'body'
+__NOTE:__ the full report will show only after we have alreay trigger a build from Unity Editor.
 
 
-A video demo also can found in <https://www.youtube.com/watch?v=MBwcCTyqhnc>.
+### Customize table headers
+
+1. Open the setting dialog by __Click the `Columns` button__ in the Assets Explorer Window
+2. Check/uncheck the checkbox of each header will make it show/hide
+
+If you want to restore the default header settings, just __click the `Restore Default Header Settings` button__.
+
+### Delete assets
+
+Select the assets you want to delete by check the CheckBox of the rows and __Click the `Remove` button__ in the Assets Explorer Window.
+
+### Export Data to CSV
+
+Via the Menu __Tools__ -> __A+ Assets Explorer__ -> __Data Exporter__ -> __Export as CSV...__.
+
+### Find unused assets
+
+Select the __Find unused assets__ menu item from the __A+ Assets Explorer__ menu in Unity Editor, press __Ok__ in pop up dialog. 
+
+__NOTE:__ 
+
+1. This feature is base on the build report of Unity, so it means the unused assets will not package into game application for current build target platform
+2. __Just a reminder for you that__ double check the assets before delete it. Because the assets will not goes into game applicaiton, not means it's not used in Editor mode or other build target platform.
 
 ### Find References in Project
 
@@ -113,6 +86,80 @@ Find the references of the selected assets, the inverse operation of __Find Depe
 
 Find the specified type references of selected assets. For eaxmple, if you select __By Modal__, the result will only contains model assets.
 
+### Locate assets in Unity
+
+There are two scenarios:
+
+* __Double click a row__ will ping the asset in Project Window of Unity Editor
+* __Select rows (one or more)__ and then __click the `Location` button__ in the Assets Explorer Window
+
+### Multiple Selection
+
+There are 4 ways to select assets in Assets Explorer:
+
+* Check the `checkbox` in the front of a row
+* Select all assets by check the `checkbox` in the table header
+* __SHIFT + Left mouse button click__ to range selection
+* __`CTRL` (on Windows)/`CMD` (On macOS/OSX) + Left mouse button click__ to toggle row selection
+
+### Open Asset Explorer
+
+Three way to open Asset Explorer
+
+* Select the __Tools__ -> __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in Unity Editor   
+* Press shortcut __Cmd + SHIFT + W__ in macOS (i.e. OSX) or __Ctrl + SHIFT + W__ on Windows
+* Right click the Project of Unity Editor, select __A+ Assets Explorer__ in pop up context menu
+
+### Refresh table
+
+Click the `Refresh` button in the Assets Explorer Window
+
+### Rename Assets
+
+
+
+### Search Assets
+
+Assets Explorer supports two ways to search your assets: 
+
+1. search assets using Search UI 
+2. type search condition directly in __Search Input__ on right corner of Asset Explorer UI.
+
+Searching in Assets Explorer supports multiple asset properties. For each property, the search condition format is 
+
+> \[AssetPropertyDataHeader]&nbsp; : &nbsp;\[>\|<] &nbsp;\[SearchValue]  
+
+For the above format:
+
+ - `[AssetPropertyDataHeader]` is the table header in Assets Explorer
+ - `:` is Required, it connects data header and its value
+ - `[>|<]` is not needed for `string` type property. For `number` type property, if it's not specified, it will default to `>`
+ - `[SearchValue]` is the property value we want to search. For `string` type, if you have serveral keywords to search, use `|` to combine them
+
+__NOTE:__ if there are no valid search format, the input string will trust as the search vaule of __Name__ property of assets.
+
+__Search assets samples:__
+
+* Below are samples for searching for textures:
+
+> 1. `Name:icon` means searching the textures whose name __contains__ 'icon' chars
+> 2. `StorageSize:>1024` means searching the textures whose storage size is larger than 1024 KB
+> 3. `MaxSize:<2048` means searching the textures whose import parameter MaxSize is less than 2048
+
+* For multiple conditions, each search condition will always be __`AND`__ logic. Take textures search for example:
+
+> `StorageSize:>1000 KB MaxSize:>1024`  
+>    
+>  _means:_
+>      
+>  search the texture with storage size is larger than 1000KB __AND__ import parameter MaxSize is larger than 1024
+
+* The multipe values sample:
+
+> `Name: icon | body` means search the texture whose name __contains__ 'icon' __OR__ 'body'
+
+A video demo also can found in <https://www.youtube.com/watch?v=yNE7V9UoOus>.
+
 ### Show In Assets Explorer
 
 Show the selected assets in Assets Explorer. Its only works when Assets Explorer is open and the selected assets are same type.
@@ -121,20 +168,16 @@ Show the selected assets in Assets Explorer. Its only works when Assets Explorer
 
 Filter the selection by type. 
 
-### Customize table headers
+## Workflow Improvemnts Tools
 
-1. Open the setting dialog by __Click the `Columns` button__ in the Assets Explorer Window
-2. Check/uncheck the checkbox of each header will make it show/hide
+### Prefab Tools
 
-If you want to restore the default header settings, just __click the `Restore Default Header Settings` button__.
 
-### Refresh table
+### Build Manager
 
-Click the `Refresh` button in the Assets Explorer Window
+Build Manager is a tool manage scenes and build settings.
 
-### Delete assets
-
-Select the assets you want to delete by check the CheckBox of the rows and __Click the `Remove` button__ in the Assets Explorer Window.
+More details see [this page](http://www.amlovey.com/SceneExplorer/).
 
 ### Quick Folder Opener
 
@@ -146,14 +189,6 @@ The Quick Folder Opener can following path in both of Windows and macOS.
 * Application.temporaryCachePath
 * Asset Store Packages Folder
 * Editor Application Path
-
-### Scene Explorer
-
-More details see [this page](http://www.amlovey.com/SceneExplorer/).
-
-### Export Data to CSV
-
-Via the Menu __Tools__ -> __A+ Assets Explorer__ -> __Data Exporter__ -> __Export as CSV...__.
 
 ## Preferences Item
 
@@ -172,6 +207,10 @@ Whether creating cache automatically.
 * `Checked` for creating cache data automatically every time re-open project. 
 * `Uncheck` for read cache data from local disk. If there are no cache data file exists, Assets Explor will create one. The is default setting
 
+### Code File Extensions
+
+Customize the code file extension. Format as `*.[extensions]`. For example, CSharp file is "*.cs". Using `;` to combine multiple code files.
+
 ### Using dockable window style
 
 Whether using dockable window style.
@@ -179,9 +218,6 @@ Whether using dockable window style.
 * `Checked` for yes, dockable window style
 * `Uncheck` for no and will using utility window. Utility windows will always be in front of normal windows, and will be hidden when user switches to another application
 
-### Code File Extensions
-
-Customize the code file extension. Format as `*.[extensions]`. For example, CSharp file is "*.cs". Using `;` to combine multiple code files.
 
 ## Table Headers 
 
@@ -336,8 +372,8 @@ Unused | boolean | Used in the game or not
 * Sometime, cache will broken by unexcepted operation and Assets Explorer will not display data. `Refresh cache data` will slove the issue.
 
 ## Get A+ Asset Explorer
-<br/>
-<br/>
+[http://u3d.as/oSy](https://www.assetstore.unity3d.com/#!/content/57335/directpurchase?aid=1011lGoJ)
+
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/57335/widget-wide?aid=1011lGoJ" style="width:600px; height:130px; border:0px;"></iframe>
 <br>
 <br>
