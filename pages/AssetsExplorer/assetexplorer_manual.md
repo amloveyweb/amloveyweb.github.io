@@ -405,7 +405,7 @@ Unused | boolean | Used in the game or not
 
 ## Offline Manual
 
-* v1.1.9: <http://www.almovey.com/docs/A+-Assets-Explorer-1.1.9-Manual.pdf>
+* v1.1.9: <https://github.com/amloveyweb/amloveyweb.github.io/raw/master/docs/A%2B-Assets-Explorer-1.1.9-Manual.pdf>
 
 ## Release note
 __v1.1.9__
