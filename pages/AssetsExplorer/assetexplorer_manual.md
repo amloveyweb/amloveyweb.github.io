@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Manual Documents"
 subheadline: "How to use A+ Assets Explorer"
-teaser: "Required A+ Assets Explorer version 1.1.8"
+teaser: "Required A+ Assets Explorer version 1.1.9"
 permalink: "/assetexplorer/manual"
 ---
 <div class="row">
@@ -108,7 +108,13 @@ Click the `Refresh` button in the Assets Explorer Window
 
 ### Rename Assets
 
+Reame Tool will rename the selected assets only, with live preview. Four groups option will apply to the asset name:
 
+* __Search And Replace:__ Search chars in name and replace with string provided. Search supports regular expression
+* __Add:__ Prefix and suffix want to add to the new name 
+* __Trimming:__ Trim the fist n chars and last n chars of the source name
+* __Counter:__ The number append to the end of new name. __Digit__ is the minimize length of number string, default is 1. 
+__Start__ is the start number, __Step__ is the number increse.
 
 ### Search Assets
 
@@ -164,6 +170,33 @@ Filter the selection by type.
 
 ### Prefab Tools
 
+Prefab Tool is a Utility to create/find prefabs, there are two entries to open the tool:
+
+1. __GameObject__ -> __A+ Prefab Tools__
+2. Right click on Hierarchy
+
+Below is the description of each menu item.
+
+Create group menu:
+
+* __New If Needed with Connection:__ Create a new prefab if the selected object is not a prefab instance and then connect the selected object to the new prefab
+* __New If Needed Without Connection:__ Create a new prefab if the selected object is not a prefab instance, but does not connect the selected object to the new prefab   
+* __New Prefab With Connection:__ Always create a new prefab no matter the selected object is a prefab instance or not, and then connect the selected object to the new prefab(will break the existing one).
+* __New Prefab Without Connection:__ Always create a new prefab no matter the selected object is a prefab instance or not, but does not connect the selected object to new prefab
+
+Find group menu:
+
+* __Find All Prefabs Instances:__ Find all prefab instances in Hierarchy 
+* __Find Instances With Connection:__ Find all prefab instances which connected to prefab in Hierarchy
+* __Find Disconnected Prefab Instances:__ Find all prefab instances which prefab connection are broken in Hierarchy
+* __Find Missing Prefab Instances:__ Find all prefab instances whose prefab are missing. The ones with `(missing)` suffix in Hierarchy
+* __Find Model Prefab Instances:__ Find all model prefab instances
+
+Modification Group:
+
+* __Apply All Selected Prefabs:__ Apply modification of all selected prefabs in Hierarchy
+* __Revert All Selected Prefabs:__ Revert all modification of all selected prefabs in Hierarchy
+* __Break Prefab Instances:__ Break all connection with prefabs for all selected objects
 
 ### Build Manager
 
