@@ -403,11 +403,11 @@ Unused | boolean | Used in the game or not
 <br>
 <br>
 
-## Offline Manual:
+## Offline Manual
 
 * v1.1.9: <http://www.almovey.com/docs/A+-Assets-Explorer-1.1.9-Manual.pdf>
 
-## Release note:
+## Release note
 __v1.1.9__
 
 1. Supports Unity 5.5 
