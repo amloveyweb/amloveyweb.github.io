@@ -14,6 +14,7 @@ widget1:
   image: 'http://www.amlovey.com/images/assetexploerwidget.jpg'
   text: 'A+ Assets Explorer provides assets management and workflow improvement tools.'
   assetstore: https://www.assetstore.unity3d.com/#!/content/57335?aid=1011lGoJ
+  Gumraod: https://gumroad.com/l/GqvDD
 
 # widget2:
 #  title: "A+ Scene Explorer"

@@ -15,6 +15,7 @@
 	<p>{{ include.widget.text }}</p>
 	<p>
 		<a class="button tiny radius" href="{% if include.widget.assetstore contains 'http' %}{{ include.widget.assetstore }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.assetstore }}{% endif %}" target="_blank"> {{ site.data.language.get_from_assetstore}} </a>
+		<a class="button tiny radius" href="{% if include.widget.gumroad contains 'http' %}{{ include.widget.gumroad }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.gumroad }}{% endif %}" target="_blank"> Get From Gumroad </a>
 		<!--<a class="button tiny radius" href="{% if include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}">{{ site.data.language.more }}</a> -->
 	</p>
 </div>
