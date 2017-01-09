@@ -15,6 +15,8 @@ A+ Assets Explorer is an easy to use assets explorer extension for Unity Editor,
 <br>
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/57335/widget-wide?aid=1011lGoJ" style="width:600px; height:130px; border:0px;"></iframe>
 <br>
+<br>
+OR from <https://gumroad.com/l/GqvDD>
 
 ### ARE THERE FREE VERSION?
 
@@ -23,9 +25,5 @@ __Sure, try it NOW !!__
 <br>
 <br>
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/68761/widget-wide?aid=1011lGoJ" style="width:600px; height:130px; border:0px;"></iframe>
-
-<br>
-OR from <https://gumroad.com/l/GqvDD>
-
 
 
