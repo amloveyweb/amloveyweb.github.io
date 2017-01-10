@@ -48,7 +48,9 @@ __NOTE:__ the full report will show only after we have alreay trigger a build fr
 
 ### Customize table headers
 
-1. Open the setting dialog by __Click the `Columns` button__ in the Assets Explorer Window
+Follow below steps:
+
+1. Open the setting dialog by Click the `Actions` dropdown in the Assets Explorer Window, and select `Change Table Headers` in drop down menu
 2. Check/uncheck the checkbox of each header will make it show/hide
 
 If you want to restore the default header settings, just __click the `Restore Default Header Settings` button__.
@@ -94,17 +96,34 @@ There are 4 ways to select assets in Assets Explorer:
 * __SHIFT + Left mouse button click__ to range selection
 * __`CTRL` (on Windows)/`CMD` (On macOS/OSX) + Left mouse button click__ to toggle row selection
 
+### Quick Selection
+
+There three options now:
+
+* __Select All:__ Click the `Actions` dropdown in the Assets Explorer Window, and select `Select All` in drop down menu
+* __Deselect All:__ Click the `Actions` dropdown in the Assets Explorer Window, and select `Deselect All` in drop down menu
+* __Select Unused Assets:__ 
+    * Method One: Click the `Actions` dropdown in the Assets Explorer Window, and select `Deselect All` in drop down menu
+    * Method Two: Click the `Select Unused Assets` Button on the toolbar
+
 ### Open Asset Explorer
 
-Three way to open Asset Explorer
+Three ways to open Asset Explorer
 
-* Select the __Tools__ -> __Assets Explorer__ menu item from the __A+ Assets Explorer__ menu in Unity Editor   
+* Select the __Tools__ -> __Assets Explorer__ menu item from the __Tools__ -> __A+ Assets Explorer__ menu in Unity Editor   
 * Press shortcut __Cmd + SHIFT + W__ in macOS (i.e. OSX) or __Ctrl + SHIFT + W__ on Windows
 * Right click the Project of Unity Editor, select __A+ Assets Explorer__ in pop up context menu
 
 ### Refresh table
 
 Click the `Refresh` button in the Assets Explorer Window
+
+### Refresh Cache data
+
+There are two ways to do this:
+
+1. Select __Tools__ -> __A+ Assets Explorer__ -> __Refresh Cache__
+2. In Assets Explorer, Click the `Actions` dropdown in the Assets Explorer Window, and select `Refresh Cache data` in drop down menu
 
 ### Rename Assets
 
@@ -383,7 +402,6 @@ Unused | boolean | Used in the game or not
 
 ### Code files
 
-
 Headers | data type | Comments
 --- | --- | --- 
 Name | string | File name
@@ -403,11 +421,17 @@ Unused | boolean | Used in the game or not
 <br>
 <br>
 
-## Offline Manual
+## Release note:
 
-* v1.1.9: <https://github.com/amloveyweb/amloveyweb.github.io/raw/master/docs/A%2B-Assets-Explorer-1.1.9-Manual.pdf>
+__2.0.0__
 
-## Release note
+1. Add quick selection: Select all assets , deselect all assets and select unused assets 
+2. Able to refresh cache in Asset Explorer 
+3. Able to get assets in active scene 
+4. Able to rename animation clip in fbx 
+5. Move header setting to 'Actions' dropdow menu 
+6. Fix some bugs 
+
 __v1.1.9__
 
 1. Supports Unity 5.5 
@@ -432,13 +456,18 @@ __v1.1.7__
 6. Reduce packages size 7. Improve profermance for syncing data after bulk edit assets. 
 7. Some bugs fixes
 
-
 __v1.1.6__
 
 1. improve asset search feature. We can search multiple properties now. 
 2. Update modal UI 
 3. Reduce packages size 
 4. fix some small bugs
+
+## Offline Manual
+
+* v1.1.9: <https://github.com/amloveyweb/amloveyweb.github.io/raw/master/docs/A%2B-Assets-Explorer-1.1.9-Manual.pdf>
+* v2.0.0: <https://github.com/amloveyweb/amloveyweb.github.io/raw/master/docs/A%2B-Assets-Explorer-2.0.0-Manual.pdf>
+
 <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/list/top-paid/widget-wide-light?aid=1011lGoJ" style="width:600px; height:100px; border:0px;"></iframe>
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
