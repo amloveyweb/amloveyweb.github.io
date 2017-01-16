@@ -1,0 +1,52 @@
+# main links
+main:
+  - title: "A+ Assets Explorer"
+    url:  /assetexplorer/manual/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
+  
+
+assets-explorer:
+  - title: "GETTING STARTED"
+    children:
+      - title: "Introduction"
+        url: "/assetexplorer/manual/"
+      - title: "Purchase"
+        url: "/assets-explorer/purchase/"
+
+  - title: "Documents"
+    children:
+      - title: "Main UI"
+        url: "/assets-explorer/assets-explorer-ui/"
+      - title: "Context Menu"
+        url : "/assets-explorer/context-menu/"
+      - title: "Themes"
+        url: "/assets-explorer/themes/"
+      - title: "Blacklist"
+        url: "/assets-explorer/blacklist"
+      - title: "Preferences Items"
+        url: "/assets-explorer/preferences-items/"
+      - title: "Table Headers"
+        url: "/assets-explorer/table-headers/"
+      - title: "Find Unused Assets"
+        url: "/assets-explorer/find-unused-assets"
+      - title: "Data Exporter"
+        url: "/assets-explorer/data-exporter"
+      - title: "Build Manager"
+        url: "/assets-explorer/build-manager"
+      - title: "Prefab Tool"
+        url: "/assets-explorer/prefab-tool"
+      - title: "Quick Folder Opener"
+        url: "/assets-explorer/quick-folder-opener/"
+      - title: "Download Offile Manual"
+        url: "/assets-explorer/offline-manual/"
+  
+  - title: "Log"
+    children:
+      - title: "Relase note"
+        url: "/assets-explorer/release-note/"
+      - title: "Known Issues"
+        url: "/assets-explorer/known-issues/"
+      - text: "V 2.0.1"
