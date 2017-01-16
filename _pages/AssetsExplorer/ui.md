@@ -76,5 +76,4 @@ Open the table header settings winwdow.
 * `Uncheck` the header name will hide header in assets data table
 * `Check` the header name will display header in assets data table
 
-
-
+If you want to restore the default header settings, just __click the `Restore Default Header Settings` button__.
