@@ -8,4 +8,4 @@ Amlovey is an Unity AssetStore publisher, aslo an Unity developer in China.
 
 ## Unity Assets By Amlovey
 
-[A+ Assets Explorer](/assets-explorer/)
+[A+ Assets Explorer](/assets-explorer/Manual/)
