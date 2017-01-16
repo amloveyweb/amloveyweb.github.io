@@ -42,7 +42,7 @@ assets-explorer:
         url: "/assets-explorer/prefab-tool"
       - title: "Quick Folder Opener"
         url: "/assets-explorer/quick-folder-opener/"
-      - title: "Download Offile Manual"
+      - title: "Download Offline Manual"
         url: "/assets-explorer/offline-manual/"
   
   - title: "Log"
