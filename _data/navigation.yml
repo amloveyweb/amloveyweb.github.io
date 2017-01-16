@@ -26,6 +26,8 @@ assets-explorer:
         url: "/assets-explorer/themes/"
       - title: "Blacklist"
         url: "/assets-explorer/blacklist"
+      - title: "Search Assets"
+        url: "/assets-explorer/search-assets/"
       - title: "Preferences Items"
         url: "/assets-explorer/preferences-items/"
       - title: "Table Headers"
