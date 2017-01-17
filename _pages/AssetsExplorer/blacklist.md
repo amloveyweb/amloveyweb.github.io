@@ -9,7 +9,7 @@ sidebar:
 Both of assets and folders can be added into blacklist:
 
 * If assets in blacklist, it will hide from assets data table view. 
-* If folder in blacklist, all of assets under the folder hide from assets data table view.
+* If folder in blacklist, all of assets under the folder will hide from assets data table view.
 
 ## Add Assets / folders into Blacklist
 
