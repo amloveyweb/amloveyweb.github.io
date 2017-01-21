@@ -5,6 +5,13 @@ permalink: "/assets-explorer/release-note/"
 sidebar:
   nav: "assets-explorer"
 ---
+## __2.0.2__
+
+1. Filter out the assets under project settings folder in OTHER category 
+2. Ajust the create prefab shortcut to resolve the conflict with native shortcut of Unity Editor 
+3. Fix the Unused mark is not correct for some assets with AssetBundle Assigned 
+4. Fix Unity Editor crash when generating lightmap issue
+
 ## __2.0.1__
 
 1. Add tips information in About tab 
