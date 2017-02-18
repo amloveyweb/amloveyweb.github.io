@@ -5,6 +5,13 @@ permalink: "/assets-explorer/release-note/"
 sidebar:
   nav: "assets-explorer"
 ---
+## __2.0.3__ 
+
+1. Add new tab named "In Hierarchy" to show the assets referenced by Objects in Hierarchy. We also can find the object references of selected asset in Hierarchy, similar to the "Find References in Scene" menu item in Project Window 
+2. Move "StreamingAssets" To "Assets" dropdown in header navigation bar 
+3. Change the nav item name from upper case to camel case, so that it's eaiser to read 
+4. Improve compatibility. If you have compatibility issue, please send email to me. 
+
 ## __2.0.2__
 
 1. Filter out the assets under project settings folder in OTHER category 
