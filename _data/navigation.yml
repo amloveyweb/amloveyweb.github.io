@@ -34,6 +34,8 @@ assets-explorer:
         url: "/assets-explorer/table-headers/"
       - title: "Find Unused Assets"
         url: "/assets-explorer/find-unused-assets"
+      - title: "Find Reference In Hierarchy"
+        url: "/assets-explorer/find-references-in-hierarchy"
       - title: "Data Exporter"
         url: "/assets-explorer/data-exporter"
       - title: "Build Manager"
