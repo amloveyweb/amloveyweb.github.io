@@ -5,7 +5,7 @@ permalink: "/assets-explorer/search-assets/"
 sidebar:
     nav: "assets-explorer"
 ---
-<iframe width="640" height="360" src="https://www.youtube.com/embed/yNE7V9UoOus" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/dF0f_83SM0Y" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 A+ Assets Explorer supports two ways to search your assets: 
@@ -47,5 +47,3 @@ __NOTE:__ if there are no valid search format, the input string will trust as th
 * The multipe values sample:
 
 > `Name: icon | body` means search the texture whose name __contains__ 'icon' __OR__ 'body'
-
-A video demo also can found in <https://www.youtube.com/watch?v=yNE7V9UoOus>.
