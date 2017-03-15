@@ -5,6 +5,12 @@ permalink: "/assets-explorer/release-note/"
 sidebar:
   nav: "assets-explorer"
 ---
+## __2.0.4__
+
+1. Able to open container folder of selected assets in Assets Explorer now 
+2. Able to copy name/path of assets to clipboard of selected assets in Assets Explorer now 
+3. Improve result of find references assets in Project 
+
 ## __2.0.3__ 
 
 1. Add new tab named "In Hierarchy" to show the assets referenced by Objects in Hierarchy. We also can find the object references of selected asset in Hierarchy, similar to the "Find References in Scene" menu item in Project Window 
