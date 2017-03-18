@@ -20,5 +20,5 @@ When the assets satisfy one of below condictions are __Used__, others are __Unus
 ## How Assets Explorer show the Used/Unused assets?
 
 * When A+ Assets Explorer does not know whehter assets are used or not, `Unused` column displays ? mark
-* If asset is used, it will display black color nd `Unused` column display ✔️ mark
-* if asset is unused, it will display grey color and `Unused` column display &times; mark
+* If asset is unused, it will display grey color nd `Unused` column display ✔️ mark
+* if asset is used, it will display black color and `Unused` column display &times; mark
