@@ -15,6 +15,7 @@ When the assets satisfy one of below condictions are __Used__, others are __Unus
 * In __Resources__ folder
 * In __StreamingAssets__ folder
 * Has __AssetBundle__ assigned
+* The Assets are the dependencies of an AssetBundle
 * In __Unity Build Report__. Because of this one, we have to trigger a build to get the unused files.
 
 ## How Assets Explorer show the Used/Unused assets?
@@ -22,3 +23,5 @@ When the assets satisfy one of below condictions are __Used__, others are __Unus
 * When A+ Assets Explorer does not know whehter assets are used or not, `Unused` column displays ? mark
 * If asset is used, it will display black color nd `Unused` column display ✔️ mark
 * if asset is unused, it will display grey color and `Unused` column display &times; mark
+
+NOTE: the `Unused` cloumn its name to `Used` after v2.0.5
