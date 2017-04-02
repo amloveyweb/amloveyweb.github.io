@@ -5,6 +5,13 @@ permalink: "/assets-explorer/release-note/"
 sidebar:
   nav: "assets-explorer"
 ---
+
+## __2.0.5__
+
+1. Change 'Unused' column header to 'Used' to make it's easier to understand 
+2. Improve find unused assets result 
+3. Fix bug that Blacklist not always works on Windows 
+
 ## __2.0.4__
 
 1. Able to open container folder of selected assets in Assets Explorer now 

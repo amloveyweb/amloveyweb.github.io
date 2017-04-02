@@ -16,7 +16,7 @@ When the assets satisfy one of below condictions are __Used__, others are __Unus
 * In __StreamingAssets__ folder
 * Has __AssetBundle__ assigned
 * The Assets are the dependencies of an AssetBundle
-* In __Unity Build Report__. Because of this one, we have to trigger a build to get the unused files.
+* In __Unity Build Report__. Because of this one, we have to trigger a build to get the unused files
 
 ## How Assets Explorer show the Used/Unused assets?
 
