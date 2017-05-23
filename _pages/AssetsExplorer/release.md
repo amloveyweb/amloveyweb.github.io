@@ -6,6 +6,10 @@ sidebar:
   nav: "assets-explorer"
 ---
 
+## __2.0.6__
+
+1. 
+
 ## __2.0.5__
 
 1. Change 'Unused' column header to 'Used' to make it's easier to understand 
