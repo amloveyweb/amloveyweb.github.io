@@ -49,7 +49,7 @@ assets-explorer:
   
   - title: "Log"
     children:
-      - title: "Relase note"
+      - title: "Release note"
         url: "/assets-explorer/release-note/"
       - title: "Known Issues"
         url: "/assets-explorer/known-issues/"
