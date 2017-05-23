@@ -8,7 +8,9 @@ sidebar:
 
 ## __2.0.6__
 
-1. 
+1. Unity 5.6 and Unity 2017 Beta compatibility 
+2. Show override texture format and size according to override settings
+3. Improve performance
 
 ## __2.0.5__
 
