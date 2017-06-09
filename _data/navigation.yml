@@ -6,6 +6,8 @@ main:
     url: /blog/
   - title: "Contact"
     url: /contact/
+  - title: "Asset Store"
+    url: http://www.assetstore.unity3d.com/?aid=1011lGoJ
   
 
 assets-explorer:
