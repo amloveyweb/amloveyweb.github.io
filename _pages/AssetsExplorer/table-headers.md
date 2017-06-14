@@ -21,6 +21,8 @@ TextureFormat | string | Texture format
 R&W | boolean | ReadWrite enable or not
 MM | boolean | MipMap enabled or not
 Type | string | Texture type
+CrunchedCmp | boolean | Use Crunched Compression or not
+CmpQuality | number | Compression Quality of texture
 WidthInPixel | number | Width of texture in pixel
 HeighInPixel | number | Height of texture in pixel
 Width | number | Width of texture
