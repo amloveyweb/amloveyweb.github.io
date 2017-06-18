@@ -6,6 +6,13 @@ sidebar:
   nav: "assets-explorer"
 ---
 
+## __2.0.7__
+1. Add support of Compression, Crunch Compression and Compression Quality properties of Textures
+2. Add an option for back up assets before deleting 
+3. Add search history feature which support last 15 search queries cached. Just double click the search input will open the history window.
+4. Able to find duplicated assets now.
+5. Fix some bugs
+
 ## __2.0.6__
 
 1. Unity 5.6 and Unity 2017 Beta compatibility 

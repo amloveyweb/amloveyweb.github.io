@@ -12,6 +12,7 @@ A+ Assets Explorer supports two ways to search your assets:
 
 1. Type condictions string into input and press `ENTER` on the keyboard
 2. Click the `Search` button to Open Search UI
+3. Double click the search input will open the history window
 
 ## Search Condition Format
 
