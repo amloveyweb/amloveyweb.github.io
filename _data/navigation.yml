@@ -10,16 +10,16 @@ main:
     url: /contact/
   - title: "Asset Store"
     url: http://www.assetstore.unity3d.com/?aid=1011lGoJ
-  
+
 shaderlabvscode:
-  -title: "GETTING STARTED"
-   children:
-     - title: "Introduction"
-       url: "/shaderlabvscode/index/"
-     - title: "Installation"
-       url: "/shaderlabvscode/installation/"
-     - title: "Purchase"
-       url: "/shaderlabvscode/purchase/" 
+  - title: "GETTING STARTED"  
+    children:
+      - title: "Introduction"
+        url: "/shaderlabvscode/index/"
+      - title: "Installation"
+        url: "/shaderlabvscode/installation/"
+      - title: "Purchase"
+        url: "/shaderlabvscode/purchase/" 
 
 assets-explorer:
   - title: "GETTING STARTED"
