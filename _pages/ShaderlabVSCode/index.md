@@ -19,7 +19,7 @@ ShaderlabVSCode is a Visual Studio extension for Unity Shaderlab programming.
 
 ### 2. Code Completion and Basic Intellisense
 
-![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/completion.jpg)pg)
+![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/completion.jpg)
 
 ### 3. Hover Information
 
