@@ -3,7 +3,7 @@ title: "Installation - Shaderlab Visual Studio Code"
 layout: single
 sidebar:
   nav: "shaderlabvscode"
-permalink: /assetexplorer/installation/
+permalink: /shaderlabvscode/installation/
 ---
 
 Coming Soon...
