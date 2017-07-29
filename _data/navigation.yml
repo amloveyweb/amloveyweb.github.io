@@ -23,10 +23,10 @@ shaderlabvscode:
       - title: "Snippets"
         url: "/shaderlabvscode/snippets/"
   
-   - title: "Log"
-     children:
-        - title: "Release note"
-          url: "/shaderlabvscode/release-note/"
+  - title: "Log"
+    children:
+      - title: "Release note"
+        url: "/shaderlabvscode/release-note/"
 
 assets-explorer:
   - title: "GETTING STARTED"
