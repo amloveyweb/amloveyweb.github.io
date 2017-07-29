@@ -8,5 +8,5 @@ Amlovey is an Unity AssetStore publisher, aslo an Unity developer in China.
 
 ## Unity Assets
 
-[A+ Assets Explorer](/assetexplorer/manual/)
+[A+ Assets Explorer](/assetexplorer/manual/)  
 [ShaderlabVSCode](/shaderlabvscode/index/)
