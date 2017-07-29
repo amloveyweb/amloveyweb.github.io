@@ -20,6 +20,8 @@ shaderlabvscode:
         url: "/shaderlabvscode/installation/"
       - title: "Purchase"
         url: "/shaderlabvscode/purchase/" 
+      - title: "Snippets"
+        url: "/shaderlabvscode/snippets/"
 
 assets-explorer:
   - title: "GETTING STARTED"
