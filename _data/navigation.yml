@@ -22,6 +22,8 @@ shaderlabvscode:
         url: "/shaderlabvscode/purchase/" 
       - title: "Snippets"
         url: "/shaderlabvscode/snippets/"
+      - title: "Auto Format"
+        url: "/shaderlabvscode/auto-format/"
   
   - title: "Log"
     children:

@@ -28,3 +28,5 @@ ShaderlabVSCode is a Visual Studio extension for Unity Shaderlab programming.
 ### 4. Signature Help
 
 ![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/signature.jpg)
+
+### 5. Auto Format
