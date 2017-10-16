@@ -5,6 +5,25 @@ permalink: "/assets-explorer/release-note/"
 sidebar:
   nav: "assets-explorer"
 ---
+## __2.1.1__
+
+1. Able to find scripts references of scriptableobject (Nested scriptableobject in script) 
+2. Unity 2017.2.0f2 compatibility. 
+
+## __2.1.0__
+
+1. Add packing tag for texture, it's easy to find the sprites with specific packing tag assigned. 
+2. Fix find unused assets not work in some scenario issue 
+
+## __2.0.9__
+
+1. Improve compatibility 
+2. Fix several small bugs 
+
+## __2.0.8__  
+
+1. Add tags and layers usage page. 
+2. fix bugs 3. Unity 2017 compatibility
 
 ## __2.0.7__
 1. Add support of Compression, Crunch Compression and Compression Quality properties of Textures

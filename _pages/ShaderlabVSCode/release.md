@@ -6,6 +6,24 @@ sidebar:
 permalink: "/shaderlabvscode/release-note/"
 ---
 
+## V1.0.5
+- Add region mark support(Required VSCode version 1.17.0 +). ShaderlabVSCode now supports two type markers:
+    - //#region and //#endregion, snippet is `region`
+    - //region and //endregion, snippet is `region2`
+
+## V1.0.4
+- Intellisense
+    - Add Unity defined Values support, like _Time
+    - Fix duplicate members when include same cginc files multiple times
+
+
+## V1.0.3
+- Intellisense
+    - Fix bug variable broken by semicolon
+    
+- Editor
+    - Improve compability
+
 ## V1.0.2b3
 - Auto Format:
     - Add format document feature 

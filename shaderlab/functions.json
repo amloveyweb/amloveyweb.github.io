@@ -1,5 +1,5 @@
 {
-    "Version": 1,
+    "Version": 2,
     "ItemKind": 1,
     "Items": {
         "abs": {
@@ -230,7 +230,7 @@
         },
         "clip": {
             "detail": "",
-            "documentation": "conditionally kill a pixel before output",
+            "documentation": "kills the current pixel output if any component of the given vector, or the given scalar, is negative",
             "Synopsis": [
                 "void clip(float4 x)",
                 "void clip(float3 x)",
@@ -262,7 +262,7 @@
         },
         "cos": {
             "detail": "",
-            "documentation": "returns cosine of scalars and vectors.}",
+            "documentation": "returns cosine of scalars and vectors.",
             "Synopsis": [
                 "float  cos(float a)",
                 "float1 cos(float1 a)",
