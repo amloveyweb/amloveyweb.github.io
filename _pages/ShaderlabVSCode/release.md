@@ -6,6 +6,28 @@ sidebar:
 permalink: "/shaderlabvscode/release-note/"
 ---
 
+## V1.0.8
+- Format Document
+    - Improve format for Operators
+
+## V1.0.7
+- Intellisense
+    - Fix Intellisense broken by '+', '-', '*', '/' in some scenarios
+
+- Format Document
+    - Improve format for preprocessor directives
+
+- Syntax Hightlighting
+    - Improve color of preprocessor directives
+
+## V1.0.6
+- Format Document:
+    - fix colon formation is incorrect in #pragma line
+
+- Intellisense
+    - Fix wrong code completion result in #pragma line which is triggered by colon
+    - Update description for `clip` and `cos` cg method in code completion item
+
 ## V1.0.5
 - Add region mark support(Required VSCode version 1.17.0 +). ShaderlabVSCode now supports two type markers:
     - //#region and //#endregion, snippet is `region`
