@@ -6,6 +6,25 @@ sidebar:
 permalink: "/shaderlabvscode/release-note/"
 ---
 
+## V1.1.0
+
+- Intellisense
+    - Fix intellisense was broken by "," in structs and fileds in some scenario
+
+- Format Document
+    - Fix format for [XX]PROGRAM..END[XX] structure
+    - Make #define to match levels
+
+- Experiment:
+    - Add .hlsl and .cg file support
+
+## V1.0.9
+- Intellisense
+    - Fix wrong result when there are duplicate name of variables
+
+- Syntax Highlighting
+    - Add highlighing for custom functions
+
 ## V1.0.8
 - Format Document
     - Improve format for Operators
