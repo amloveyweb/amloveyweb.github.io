@@ -1,5 +1,5 @@
 {
-    "Version": 2,
+    "Version": 3,
     "ItemKind": 1,
     "Items": {
         "abs": {
@@ -2211,7 +2211,8 @@
             "detail": "",
             "documentation": "Transforms a point from object space to view space. This is the equivalent of mul(UNITY_MATRIX_MV, float4(pos, 1.0)).xyz, and should be used in its place.",
             "Synopsis": [
-                "float3 UnityObjectToViewPos(float3 pos)"
+                "float3 UnityObjectToViewPos(float3 pos)",
+                "float3 UnityObjectToViewPos(float4 pos)"
             ]
         },
         "WorldSpaceViewDir": {
@@ -2345,6 +2346,62 @@
             "documentation": "Transforms 2D UV by scale/bias property",
             "Synopsis":[
                 "float2 TRANSFORM_TEX(texure, name)"   
+            ]
+        },
+        "UnityWorldSpaceViewDir": {
+            "detail":"",
+            "documentation": "Computes world space view direction, from object space position",
+            "Synopsis": [
+                "float3 UnityWorldSpaceViewDir(in float3 worldPos)"
+            ]
+        },
+        "UnityWorldToClipPos": {
+            "detail":"",
+            "documentation": "Tranforms position from world to homogenous space",
+            "Synopsis": [
+                "float4 UnityWorldToClipPos(in float3 pos)"
+            ]
+        },
+        "UnityViewToClipPos": {
+            "detail":"",
+            "documentation": "Tranforms position from view to homogenous space",
+            "Synopsis": [
+                "float4 UnityViewToClipPos(in float3 pos)"
+            ]
+        },
+        "UnityWorldToViewPos": {
+            "detail":"",
+            "documentation": "Tranforms position from world to camera space",
+            "Synopsis": [
+                "float3 UnityWorldToViewPos(in float3 pos)"
+            ]
+        },
+        "UnityObjectToWorldDir": {
+            "detail":"",
+            "documentation": "Transforms direction from object to world space",
+            "Synopsis": [
+                "float3 UnityObjectToWorldDir(in float3 dir)"
+            ]
+        },
+        "UnityWorldToObjectDir": {
+            "detail":"",
+            "documentation": "Transforms direction from world to object space",
+            "Synopsis": [
+                "float3 UnityWorldToObjectDir(in float3 dir)"
+            ]
+        },
+        "UnityObjectToWorldNormal": {
+            "detail":"",
+            "documentation": "Transforms normal from object to world space",
+            "Synopsis": [
+                "float3 UnityObjectToWorldNormal(in float3 norm)"
+            ]
+        },
+        "UnityWorldSpaceLightDir": {
+            "detail":"",
+            "documentation": "Computes world space light direction, from world space position",
+            "Synopsis": [
+                "float3 UnityWorldSpaceLightDir(in float3 worldPos)"
             ]
         }
     }
