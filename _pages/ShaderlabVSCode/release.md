@@ -5,6 +5,27 @@ sidebar:
   nav: "shaderlabvscode"
 permalink: "/shaderlabvscode/release-note/"
 ---
+## V1.1.1
+- Intellisense
+    - Add macros code completion support
+    - Add more completion items from UnityCG.cginc, there are:
+        - UnityWorldSpaceViewDir
+        - UnityWorldToClipPos
+        - UnityViewToClipPos
+        - UnityWorldToViewPos
+        - UnityObjectToWorldDir
+        - UnityWorldToObjectDir
+        - UnityObjectToWorldNormal
+        - UnityWorldSpaceLightDir
+    - Fix methods intellisense was broken by ':' in parameters
+
+- Format Document
+    - Improve format for marcos
+
+- Syntax Highlighting 
+    - Add highlight for `#ifdef` and `#ifndef`
+
+- Add document symbols support, press `CTRL + SHIFT + o` on Windows or `CMD + SHIFT + o` on macOS to open it.
 
 ## V1.1.0
 
