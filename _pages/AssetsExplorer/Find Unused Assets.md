@@ -25,3 +25,10 @@ When the assets satisfy one of below condictions are __Used__, others are __Unus
 * if asset is unused, it will display grey color and `Used` column display &times; mark
 
 NOTE: The `Used` cloumn is renamed to `Unused` cloumn in version 2.0.5
+
+## Important!!
+
+If there are multiple Unity Editor opened, the find unused feature may not works in the Unity Editor instances except the lastest opened one, due to only the lastest opened Unity Editor will write logs to Unity Editor log files, but the previous are not. 
+
+So if there are multiple Unity Editor opened, recommend re-open the Unity Editor of the project you want to find unused assets.
+
