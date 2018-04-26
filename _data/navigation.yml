@@ -4,12 +4,20 @@ main:
     url:  /assetexplorer/manual/
   - title: "ShaderlabVSCode"
     url: /shaderlabvscode/index/
+  - title: "uCodeEditor"
+    url: /uce/index/
   - title: "Blogs"
     url: /blog/
   - title: "Contact"
     url: /contact/
   - title: "Asset Store"
     url: https://www.assetstore.unity3d.com/#!/list/64893-amlovey-s-assets?aid=1011lGoJ
+
+uce:
+  - title: "GETTING STARTED"
+    chidren:
+      - title: "Introduction"
+        url: "/uce/index"
 
 shaderlabvscode:
   - title: "GETTING STARTED"  
