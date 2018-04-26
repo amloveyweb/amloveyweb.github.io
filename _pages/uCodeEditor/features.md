@@ -6,8 +6,6 @@ sidebar:
 permalink: "/uce/features/"
 ---
 
-## Features
-
 ### Color Theme
 
 __uCodeEditor__ supprots below theme for now:
@@ -28,13 +26,13 @@ The image below shows indentation guides (vertical lines) which help you quickly
 
 ![ident-guide](/assets/images/uce/ident-guide.png)
 
-## Command Palette
+### Command Palette
 
 **Command Palette** provides access to many commands. From here, you have acess for most of functionality of __uCodeEditor__. Press `F1` will open Command Palette.
 
 ![](/assets/images/uce/commands-.png)
 
-## Actions
+### Actions
 
 For the icons button in below image show, from left to right is 
 
