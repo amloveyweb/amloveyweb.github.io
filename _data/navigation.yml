@@ -15,7 +15,7 @@ main:
 
 uce:
   - title: "GETTING STARTED"
-    chidren:
+    children:
       - title: "Introduction"
         url: "/uce/index"
 
