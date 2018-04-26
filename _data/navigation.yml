@@ -17,7 +17,13 @@ uce:
   - title: "GETTING STARTED"
     children:
       - title: "Introduction"
-        url: "/uce/index"
+        url: "/uce/index/"
+      - title: "Requirements"
+        url: "/uce/requirements/"
+      - title: "Languages"
+        url: "/uce/language/"
+      - title: "Features"
+        url: "/uce/features/"
 
 shaderlabvscode:
   - title: "GETTING STARTED"  
