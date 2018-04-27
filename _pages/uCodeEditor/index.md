@@ -10,7 +10,11 @@ __uCodeEditor__ is a lightweight code editor inside Unity Editor, alternative ch
 
 ![](/assets/images/uce/black-overview.png)
 
+### Video
 
-###Asset Store:
+
+<iframe width="640" height="351" src="https://www.youtube.com/embed/90rALAf_bcs" frameborder="0" allowfullscreen></iframe>
+
+### Asset Store:
 
 __Comming soon...__

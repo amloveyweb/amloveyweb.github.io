@@ -8,10 +8,9 @@ permalink: "/uce/features/"
 
 ### Color Theme
 
-__uCodeEditor__ supprots below theme for now:
+uCodeEditor supprots below theme for now:
 
 - Visual Studio
-
 - Visual Studio Dark
 
 ### Minimap
@@ -37,23 +36,14 @@ The image below shows indentation guides (vertical lines) which help you quickly
 For the icons button in below image show, from left to right is 
 
 - __Thunder__: Open Command Palette. Shortcut is `F1`
-
 - __Save__: Save current opened document. Shortcut is `⌘K` on macOS and `Ctrl+K` on Windows
-
 - __More__: Hover or click will open drop down menu
-
   - __New__: Create new document. Shortcut is `⌘J` on macOS and `Ctrl+J` on Windows
-
   - __Ping__: Ping current opened document in Unity Project Window. Shortcut is `⌘L` on macOS and `Ctrl+L` on Windows
-
   - __Close Tab__: Close current opened document. Shortcut is `⌘W` on macOS and `Ctrl+W` on Windows
-
   - __Close All Tab__: Close all tabs in tablist
-
   - __Save All__: Save all documents which has changes
-
   - __Settings...__: Open __Settings Window__ Dialog
-
   - __About__: Show about information and versions.
 
 ![](/assets/images/uce/more.png)
