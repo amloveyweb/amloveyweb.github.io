@@ -8,7 +8,7 @@ permalink: "/uce/features/"
 
 ### Color Theme
 
-uCodeEditor supprots below theme for now:
+uCodeEditor supports below theme for now:
 
 - Visual Studio
 - Visual Studio Dark
