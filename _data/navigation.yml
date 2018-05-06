@@ -24,11 +24,12 @@ uce:
         url: "/uce/language/"
       - title: "Features"
         url: "/uce/features/"
-  
-  - title: "LOG"
-      children:
-        - title: "Change Log"
-          url: "/uce/changelog/"
+
+  - title: "GETTING STARTED"
+    children:
+      - title: "Change Log"
+        url: "/uce/changelog/"
+        
 
 shaderlabvscode:
   - title: "GETTING STARTED"  
