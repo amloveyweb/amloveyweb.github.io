@@ -31,6 +31,17 @@ The image below shows indentation guides (vertical lines) which help you quickly
 
 ![](/assets/images/uce/commands-.png)
 
+### Go To File
+
+Two way can open the `Go To File` dialog:
+
+1. Press `⌘;` on macOS or `Ctrl+;` on window
+2. Press `F1` to open Command Paletee and execute the command `Go To File`
+
+An then select one of the drop down item and will the file directly. 
+
+![](/assets/images/uce/gotofile.png)
+
 ### Actions
 
 For the icons button in below image show, from left to right is 
