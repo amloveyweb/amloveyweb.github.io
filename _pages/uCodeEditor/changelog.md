@@ -1,3 +1,4 @@
+---
 title: "Change Log - uCodeEditor"
 layout: single
 sidebar:
