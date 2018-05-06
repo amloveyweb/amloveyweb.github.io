@@ -25,10 +25,10 @@ uce:
       - title: "Features"
         url: "/uce/features/"
   
-  - title: "Log"
+  - title: "LOG"
       children:
         - title: "Change Log"
-          url: "/uce/changelog"
+          url: "/uce/changelog/"
 
 shaderlabvscode:
   - title: "GETTING STARTED"  
