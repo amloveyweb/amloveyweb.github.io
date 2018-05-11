@@ -30,7 +30,7 @@ uce:
       - title: "Languages"
         url: "/uce/language/"
       - title: "FAQ"
-        url: "/uce/faq"
+        url: "/uce/faq/"
 
   - title: "LOG"
     children:
