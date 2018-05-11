@@ -18,17 +18,16 @@ uce:
     children:
       - title: "Introduction"
         url: "/uce/index/"
-      - title: "Requirements"
-        url: "/uce/requirements/"
-      - title: ""
-      
-      
+      - title: "Purchase"
+        url: "/uce/purchase/" 
+      - title: "Installation"
+        url: "/uce/installation/"
 
   - title: "DOCUMENTS"
     children:
       - title: "Main Features"
         url: "/uce/features/"
-      - title: "Support Languages"
+      - title: "Languages"
         url: "/uce/language/"
       - title: "FAQ"
         url: "/uce/faq"
