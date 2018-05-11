@@ -1,5 +1,6 @@
 ---
 title: "Features - uCodeEditor"
+layout: single
 sidebar:
   nav: "uce"
 permalink: "/uce/features/"
