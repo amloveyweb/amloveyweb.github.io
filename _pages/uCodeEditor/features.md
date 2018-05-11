@@ -4,6 +4,7 @@ layout: single
 sidebar:
   nav: "uce"
 permalink: "/uce/features/"
+toc: true
 ---
 
 ### Color Theme
