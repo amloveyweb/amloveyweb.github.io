@@ -20,10 +20,18 @@ uce:
         url: "/uce/index/"
       - title: "Requirements"
         url: "/uce/requirements/"
-      - title: "Languages"
-        url: "/uce/language/"
-      - title: "Features"
+      - title: ""
+      
+      
+
+  - title: "DOCUMENTS"
+    children:
+      - title: "Main Features"
         url: "/uce/features/"
+      - title: "Support Languages"
+        url: "/uce/language/"
+      - title: "FAQ"
+        url: "/uce/faq"
 
   - title: "LOG"
     children:
