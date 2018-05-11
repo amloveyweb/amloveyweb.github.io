@@ -1,7 +1,5 @@
 ---
 title: "Features - uCodeEditor"
-sidebar:
-  nav: "uce"
 permalink: "/uce/features/"
 toc: true
 ---
