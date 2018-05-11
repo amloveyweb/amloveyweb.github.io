@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/preferences-items/"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 ![preferences](/assets/images/preferences.png)

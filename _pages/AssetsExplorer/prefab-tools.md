@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/prefab-tool"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 Prefab Tool is a Utility to create/find prefabs, there are two entries to open the tool:

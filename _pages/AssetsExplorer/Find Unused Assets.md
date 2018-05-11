@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/find-unused-assets"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 Select __Tools__ -> __A+ Assets Explorer__ -> __Find Unused Assets__ to trigger a build to find unused assets.

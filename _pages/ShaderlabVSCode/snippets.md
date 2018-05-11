@@ -4,6 +4,7 @@ layout: single
 sidebar:
   nav: "shaderlabvscode"
 permalink: "/shaderlabvscode/snippets/"
+toc: true
 ---
 
 Below are the snippets:

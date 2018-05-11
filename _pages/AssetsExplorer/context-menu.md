@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/context-menu/"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 ![project context menu](/assets/images/project-context-menu.jpg)
 

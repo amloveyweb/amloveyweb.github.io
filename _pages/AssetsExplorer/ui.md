@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/assets-explorer-ui/"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 There are three ways to open Asset Explorer

@@ -4,6 +4,7 @@ title: "Table Headers"
 permalink: "/assets-explorer/table-headers/"
 sidebar:
   nav: "assets-explorer"
+toc: true
 ---
 
 Below headers are supported by A+ Assets Explorer currently. If you need more, welcome to send [email](mailto:amlovey@qq.com) to me.

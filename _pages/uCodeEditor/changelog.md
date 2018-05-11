@@ -4,6 +4,7 @@ layout: single
 sidebar:
   nav: "uce"
 permalink: "/uce/changelog/"
+toc: true
 ---
 
 ### 1.0.2b

@@ -4,6 +4,7 @@ title: "Release note"
 permalink: "/assets-explorer/release-note/"
 sidebar:
   nav: "assets-explorer"
+toc: true
 ---
 ## __2.1.1__
 

@@ -4,6 +4,7 @@ title: "Build Manager"
 permalink: "/assets-explorer/build-manager"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 ![build-manager](/assets/images/build-manager.png)

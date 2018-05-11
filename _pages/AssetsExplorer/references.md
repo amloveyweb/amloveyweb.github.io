@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/find-references"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 ### In Hierarchy

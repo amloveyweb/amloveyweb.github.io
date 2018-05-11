@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/offline-manual/"
 sidebar:
   nav: "assets-explorer"
+toc: true
 ---
 ## \#Version 2.0.5
 <https://github.com/amloveyweb/amloveyweb.github.io/raw/master/docs/A%2B-Assets-Explorer-2.0.5-Manual.pdf>

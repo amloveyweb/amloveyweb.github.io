@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/search-assets/"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 <iframe width="640" height="360" src="https://www.youtube.com/embed/dF0f_83SM0Y" frameborder="0" allowfullscreen></iframe>
 

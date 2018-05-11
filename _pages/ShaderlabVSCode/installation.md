@@ -4,6 +4,7 @@ layout: single
 sidebar:
   nav: "shaderlabvscode"
 permalink: "/shaderlabvscode/installation/"
+toc: true
 ---
 
 ### Running On Mac

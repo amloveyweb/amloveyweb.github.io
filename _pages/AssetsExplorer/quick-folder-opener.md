@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/quick-folder-opener/"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 ## Open Folder

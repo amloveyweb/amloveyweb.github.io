@@ -4,7 +4,17 @@ layout: single
 sidebar:
   nav: "shaderlabvscode"
 permalink: "/shaderlabvscode/release-note/"
+toc: true
 ---
+
+## V1.1.3
+- Auto Format
+    - use tab or spaces can be configured by `editor.insertSpaces` VSCode settings
+
+## V1.1.2
+- Add more completions from UnityCG.cginc.
+- Fix document symbols show incorrectly in some scenarios.
+
 ## V1.1.1
 - Intellisense
     - Add macros code completion support

@@ -4,6 +4,7 @@ layout: single
 permalink: "/assets-explorer/blacklist"
 sidebar:
     nav: "assets-explorer"
+toc: true
 ---
 
 Both of assets and folders can be added into blacklist:
