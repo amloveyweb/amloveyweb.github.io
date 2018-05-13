@@ -8,8 +8,6 @@ main:
     url: /uce/index/
   - title: "Blogs"
     url: /blog/
-  # - title: "Contact"
-  #   url: /contact/
   - title: "Asset Store"
     url: https://www.assetstore.unity3d.com/#!/list/64893-amlovey-s-assets?aid=1011lGoJ
 
