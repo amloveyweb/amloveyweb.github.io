@@ -1,5 +1,5 @@
 ---
-title: "Purchase - Shaderlab Visual Studio Code"
+title: "Purchase - ShaderlabVSCode"
 layout: single
 sidebar:
   nav: "shaderlabvscode"

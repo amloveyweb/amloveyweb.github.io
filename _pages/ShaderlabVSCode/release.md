@@ -1,5 +1,5 @@
 ---
-title: "Release - Shaderlab Visual Studio Code"
+title: "Release - ShaderlabVSCode"
 layout: single
 sidebar:
   nav: "shaderlabvscode"

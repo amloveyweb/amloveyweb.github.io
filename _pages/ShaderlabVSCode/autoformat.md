@@ -1,5 +1,5 @@
 ---
-title: "Auto Format - Shaderlab Visual Studio Code"
+title: "Auto Format - ShaderlabVSCode"
 layout: single
 sidebar:
   nav: "shaderlabvscode"

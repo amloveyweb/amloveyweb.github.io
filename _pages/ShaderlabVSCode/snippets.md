@@ -1,5 +1,5 @@
 ---
-title: "Code Snippets - Shaderlab Visual Studio Code"
+title: "Code Snippets - ShaderlabVSCode"
 layout: single
 sidebar:
   nav: "shaderlabvscode"

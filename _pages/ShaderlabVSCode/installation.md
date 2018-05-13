@@ -1,5 +1,5 @@
 ---
-title: "Installation - Shaderlab Visual Studio Code"
+title: "Installation - ShaderlabVSCode"
 layout: single
 sidebar:
   nav: "shaderlabvscode"
