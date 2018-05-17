@@ -7,6 +7,21 @@ permalink: "/uce/features/"
 toc: true
 ---
 
+### Open uCodeEditor
+
+Two ways can archive this:
+
+1. Via __Tools__ -> __uCodeEditor__ -> __uCodeEditor__
+2. Open any script files will open uCodeEditor if it's not opened
+
+### Open File In uCodeEditor
+
+Beside double click a script file in Project Window, below action will open file in uCodeEditor too:
+
+1. Via right-click dropdown context menu item `Open in uCodeEditor` in Project Window
+2. Double click the script references in Componment inside Inspector
+3. Click the `Open...` button in Inspector 
+
 ### Color Theme
 
 uCodeEditor supports below theme for now:
