@@ -16,4 +16,4 @@ __uCodeEditor__ is a lightweight code editor inside Unity Editor, another code e
 
 ### Asset Store:
 
-__Comming soon...__
+<iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/117349/widget?aid=1011lGoJ" style="width:202px; height:260px; border:0px;"></iframe>
