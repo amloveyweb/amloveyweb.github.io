@@ -24,6 +24,8 @@ Bug Fix:
 - Fix open file will be failed in some cases
 - Fix content of opened documents will be overwrote in some cases 
 - Fix insert text is not correct after press enter key in xml document comments in C#
+- Remove .NET 4.6 dependency on Windows
+
 
 ### 1.0.2b
 
