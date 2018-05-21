@@ -41,6 +41,19 @@ The image below shows indentation guides (vertical lines) which help you quickly
 
 ![ident-guide](/assets/images/uce/ident-guide.png)
 
+### Folding
+
+Move mouse to the area close to line numbers, Folding outline will show. We can click icon to fold/unfold content of code.
+
+#### Region
+
+uCode also supports region for C# and Shaderlab.
+
+- C#: using `#region` / `#endregion`
+- Shaderlab: using `//region` / `//endregion` or `//#region` / `//#endregion`
+
+![](assets/images/uce/folding.png)
+
 ### Command Palette
 
 **Command Palette** provides access to many commands. From here, you have acess for most of functionality of __uCodeEditor__. Press `F1` will open Command Palette.
@@ -62,6 +75,7 @@ An then select one of the drop down item and will the file directly.
 
 For the icons button in below image show, from left to right is 
 
+- __Refresh__: Sync with Project, it will save all files and trigger an recompile. Shortcut is `⌘R` on macOS and `Ctrl+R` on Windows
 - __Thunder__: Open Command Palette. Shortcut is `F1`
 - __Save__: Save current opened document. Shortcut is `⌘K` on macOS and `Ctrl+K` on Windows
 - __More__: Hover or click will open drop down menu
@@ -80,3 +94,20 @@ For the icons button in below image show, from left to right is
 We can change editor setting in __Settings Window__, which can open via click __More__ button and select __Settings...__ menu in more dropdown menu.
 
 ![](/assets/images/uce/settings.png)
+
+#### General
+
+`General` Tab have following setting item:
+
+- Color Theme
+- Font Size
+- Minimap
+- Indent Guide
+- Auto Save
+
+#### Shaderlab
+
+`Shaderlab` tab have following setting item:
+
+- Insert Spaces
+- Tab Size
