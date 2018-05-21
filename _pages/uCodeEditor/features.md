@@ -52,7 +52,7 @@ uCode also supports region for C# and Shaderlab.
 - C#: using `#region` / `#endregion`
 - Shaderlab: using `//region` / `//endregion` or `//#region` / `//#endregion`
 
-![](assets/images/uce/folding.png)
+![](/assets/images/uce/folding.png)
 
 ### Command Palette
 
