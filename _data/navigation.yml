@@ -29,6 +29,8 @@ uce:
         url: "/uce/features/"
       - title: "Languages"
         url: "/uce/language/"
+      - title: "Color Theme Sample"
+        url: "/uce/color-theme-sample/
       - title: "FAQ"
         url: "/uce/faq/"
 

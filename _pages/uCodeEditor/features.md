@@ -28,6 +28,10 @@ uCodeEditor supports below theme for now:
 
 - Visual Studio
 - Visual Studio Dark
+- Monokai
+- Material Palenight
+
+And we can add a new color theme using json file, see the monokai sample (the [monokai.json](/uce/color-theme-sample/) file) in package.
 
 ### Minimap
 
@@ -75,7 +79,7 @@ An then select one of the drop down item and will the file directly.
 
 For the icons button in below image show, from left to right is 
 
-- __Refresh__: Sync with Project, it will save all files and trigger an recompile. Shortcut is `⌘R` on macOS and `Ctrl+R` on Windows
+- __Refresh__: Sync with Project, it will save all files and trigger an recompile. Shortcut is `⌘R` on macOS and `Ctrl+Alt+R` on Windows
 - __Thunder__: Open Command Palette. Shortcut is `F1`
 - __Save__: Save current opened document. Shortcut is `⌘K` on macOS and `Ctrl+K` on Windows
 - __More__: Hover or click will open drop down menu
@@ -88,6 +92,12 @@ For the icons button in below image show, from left to right is
   - __About__: Show about information and versions.
 
 ![](/assets/images/uce/more.png)
+
+### Search
+
+Open Search View via `Search...` command in Command Palette or shortcut Ctrl+`. Type words and press Enter key will trigger a search.
+
+![](/assets/images/uce/search.jpg)
 
 ### Customization
 
