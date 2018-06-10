@@ -6,6 +6,22 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.0.4b
+
+New:
+- Add search text in files features, open the search view via `Search...` command in Command Palette or via Ctrl+` shortcut
+- Add ability that user can add new color theme using json file, see the monokai example in package
+- Add `Toggle Word Wrap` command
+- Add open project path in Command Line/ Terminal command, see `Project: Open In Command Line` on Windows or `Project: Open In Terminal` macOS in Command Palette
+
+Improvements:
+- Improve the `Auto Save` trigger time.
+- Improve background color when there are no openned items in uCodeEditor
+
+Bug Fix:
+- Fix shortcut doesn't work on Windows for some commands
+- Fix some snippets are broken issue
+- Fix `Reload uCodeEditor` Command lost in Command Palette issue
 
 ### 1.0.3b
 
