@@ -30,7 +30,7 @@ HeighInPixel | number | Height of texture in pixel
 Width | number | Width of texture
 Height | number | Height of texture
 File Path | string | The file path of the texture file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 
@@ -51,7 +51,7 @@ GenerateColliders | boolean | Should Unity generate mesh colliders for all meshe
 LightmapToUV2 | boolean | Generate lightmap UVs to UV2
 SwapUVs | boolean | Swaps the 2 UV channels in meshes. Use if your diffuse texture use UVs from lightmap 
 File Path | string | The file path of the model file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Animations
@@ -66,7 +66,7 @@ LoopTime | boolean | Loop animation or not
 LoopPose | boolean | Loop pose or not
 CycleOffset | number | Cycle Offset
 Path | string | The file path of animation file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Audios
@@ -83,7 +83,7 @@ Duration | number | Duration of the audio
 Quality | number | Quality of the audio 
 Background | boolean | Run in background
 File path | string | The file path of the audio file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Movies
@@ -96,7 +96,7 @@ Texture Size | number | Texture size of the movie
 Quality | number | Quality of the movie
 Duration | number | The duration of the movie
 File Path | string | The file path of movies file
-Unused | boolean |Used in the game or not
+Used | boolean |Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Fonts
@@ -109,7 +109,7 @@ FileSize | number | File size of font file
 RenderingMode | string |Rendering mode
 Character | string | Character type
 File Path | string | The file path of font file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Materials
@@ -121,7 +121,7 @@ FileSize | number | File size of material file
 Type | string | The type of material: Material or Physics Material
 Shader | string | The shader name that material used
 File Path | string | The file path of material file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Shaders
@@ -141,7 +141,7 @@ CastShadows | boolean | Cast shadows or not
 IgnoreProjector | boolean | Ignore projector or not
 DisableBatching | string | Batch is disabled or not
 File Path | string | The file path of shader file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## StreamingAssets
@@ -151,7 +151,7 @@ Headers | data type | Comments
 Name | string | File name
 FileSize | number | Size of file
 File Path | string | The file path of file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Code files
@@ -162,7 +162,7 @@ Name | string | File name
 FileSize | number | Size of file
 FileType | string | File type of asset file
 File Path | string | The file path of file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets
 
 ## Others
@@ -173,5 +173,5 @@ Name | string | File name
 FileSize | number | Size of file
 FileType | string | File type of asset file
 File Path | string | The file path of file
-Unused | boolean | Used in the game or not
+Used | boolean | Used in the game or not
 Id | string | The file guid of assets or file guid with local id of nested assets

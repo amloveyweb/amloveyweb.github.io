@@ -6,6 +6,15 @@ sidebar:
   nav: "assets-explorer"
 toc: true
 ---
+
+## __2.1.3__
+1. Improve sorting order (experiment)
+2. A+ is able to move any folder under project now instead of just binplace the plugin folder
+3. Unity 2018.1.0b3 compatibility.
+
+## __2.1.2__
+1. Optimize cache system IO
+
 ## __2.1.1__
 
 1. Able to find scripts references of scriptableobject (Nested scriptableobject in script) 
