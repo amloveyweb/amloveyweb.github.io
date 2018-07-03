@@ -9,7 +9,7 @@ toc: true
 ### 1.0.5b
 
 New:
-- Add shortcut customization feature. Use `Shortcuts: Customization...` aciton in Command Palette to open the customization window.
+- Add shortcut customization feature. Use `Shortcuts: Customization...` action in Command Palette to open the customization window.
 - Add an action `Shortcuts: Restore To Default` action in Command Palette to restore shortcuts to default for all actions
 - Add ability that uCodeEditor can remember last active tab
 
