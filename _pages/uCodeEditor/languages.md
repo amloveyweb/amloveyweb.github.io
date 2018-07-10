@@ -19,7 +19,7 @@ Overview table of languages and their features support:
 | Hover Information     | Yes    | Yes       |      |                 |
 | Signature Help        | Yes    | Yes       |      |                 |
 | Formatting            | Yes    | Yes       |      |                 |
-| Code Snippets         | Yes    | Yes       |      |                 |
+| Code Snippets         | Yes    | Yes       | Yes  |                 |
 | Document Symbol       | Yes    | Yes       | Yes  |                 |
 | Rename                | Yes    |           |      |                 |
 | Diagnostics           | Yes    |           |      |                 |
