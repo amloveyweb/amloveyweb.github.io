@@ -6,6 +6,24 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.0.6
+
+NEW:
+- Add TabOut feature which can move cursors out of parenthesizes and string like in Visual Studio. We can enable it in settings window.
+- New About Window.
+- New theme `Monokai-One`.
+
+Improvements:
+- `Open in uCodeEditor` will be grey and unclickable when select unsupported asset.
+- Default setting of `Auto Save` is On now.
+- uCodeEditor folder in project can be moved to other folders now.
+
+Bug Fix:
+- Fix window has little change to become to no response after reimporting.
+- Fix open scripts failed on Windows platform in some scenarios.
+- Fix go to file feature got an empty list in some scenarios.
+- Fix color theme dropdown list scroll bug in Settings Window.
+
 ### 1.0.5b
 
 New:

@@ -113,6 +113,7 @@ We can change editor setting in __Settings Window__, which can open via click __
 - Font Size
 - Minimap
 - Indent Guide
+- Tab Out
 - Auto Save
 
 #### Shaderlab
