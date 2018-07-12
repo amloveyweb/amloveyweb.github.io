@@ -27,7 +27,7 @@ uce:
     children:
       - title: "Main Features"
         url: "/uce/features/"
-      - title: "Languages"
+      - title: "Language Support"
         url: "/uce/language/"
       - title: "Color Theme Sample"
         url: "/uce/color-theme-sample/"
