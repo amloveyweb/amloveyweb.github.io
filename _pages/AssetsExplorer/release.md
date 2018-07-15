@@ -7,6 +7,10 @@ sidebar:
 toc: true
 ---
 
+## __2.1.4__
+1. Add find terrain textures feature, it's under menu item: Tools->A+ Assets Explorer->Tools->Find Terrain Textures In Current Scene
+2. Unity 2018.2 compatibility
+
 ## __2.1.3__
 1. Improve sorting order (experiment)
 2. A+ is able to move any folder under project now instead of just binplace the plugin folder
