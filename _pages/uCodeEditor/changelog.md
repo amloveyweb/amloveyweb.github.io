@@ -6,6 +6,15 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.0.7
+
+NEW:
+- Add `Export Settings..` and `Import Settings...` action in Command Palette to save or load editor settings to a single file.
+
+Bug Fix:
+- Fix bug that window become no response after scene file reloaded.
+- Fix xml document comment format for property of csharp.
+
 ### 1.0.6
 
 NEW:

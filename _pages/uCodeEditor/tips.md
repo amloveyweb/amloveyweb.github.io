@@ -1,9 +1,9 @@
 ---
-title: "FAQ - uCodeEditor"
+title: "Tips - uCodeEditor"
 layout: single
 sidebar:
   nav: "uce"
-permalink: "/uce/faq/"
+permalink: "/uce/tips/"
 toc: true
 ---
 
