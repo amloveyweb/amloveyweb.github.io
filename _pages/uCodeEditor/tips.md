@@ -1,5 +1,5 @@
 ---
-title: "Tips - uCodeEditor"
+title: "Tips and Tricks - uCodeEditor"
 layout: single
 sidebar:
   nav: "uce"
