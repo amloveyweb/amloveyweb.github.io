@@ -31,7 +31,7 @@ uce:
         url: "/uce/language/"
       - title: "Color Theme Sample"
         url: "/uce/color-theme-sample/"
-      - title: "Tips"
+      - title: "Tips And Tricks"
         url: "/uce/tips/"
 
   - title: "LOG"
