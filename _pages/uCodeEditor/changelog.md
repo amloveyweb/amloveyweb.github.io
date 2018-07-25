@@ -6,6 +6,24 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.0.8
+
+NEW: 
+- Add `Unity Editor: Go To Scene...` action to quick open scene in Unity Editor.
+- Add `Unity Editor: Reveal Special Folder...` action to reveal Unity special folder, like Application.dataPath, Application.persistentDataPath, Asset Store Packages Folder etc.
+- Add Unity 2018.2 support. We can open file in packages folder as readonly file in uCodeEditor and highlighting for .uxml, .uss, .xsd files.
+- Add .csx editing support.
+- Add file icons.
+
+Improvement
+- Record cursor line to instead of cursor position for cursor navigation history.
+- Improve C# Highlighting with async/await keywords support.
+
+Bug Fix:
+- Open file with line failed in some scenarios.
+- View state of previous opened file will missing after new file is loaded from Unity Editor side.
+- Description of quick open file entry is not correct when assets are under root of assets folder.
+
 ### 1.0.7
 
 NEW:
