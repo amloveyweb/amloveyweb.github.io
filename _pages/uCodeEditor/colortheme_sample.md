@@ -7,6 +7,18 @@ permalink: "/uce/color-theme-sample/"
 toc: true
 ---
 
+### Color Themes
+
+uCodeEditor supports below themes for now:
+
+- Visual Studio
+- Visual Studio Dark
+- Monokai
+- Material Palenight
+- Monokai One
+
+And we can add a new color theme using json file, see the monokai sample (the [monokai.json](/uce/color-theme-sample/) file) in package.
+
 ### Monokai.json
 
 ```json

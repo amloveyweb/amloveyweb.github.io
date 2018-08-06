@@ -6,6 +6,22 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.0.9
+
+NEW: 
+- Add markdown preview feature.
+- Add check updates feature in About Window.
+- Add `Open file...` action which can open selected file outside project. 
+
+Improvements:
+- Shortcuts can be executed when editor are not focused.
+- Add more C# code snippets which including MonoBehaviour, EditorWindow and debug log etc.
+
+Bug Fix:
+- Fix C# intellisense will not works after scripts are renamed in Unity Editor.
+- Fix solution file have little chance cannot be found by Omnisharp when project start.
+- Fix go to location from Search Window will be failed when there are no files opened.
+
 ### 1.0.8
 
 NEW: 

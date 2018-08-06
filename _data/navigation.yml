@@ -25,12 +25,20 @@ uce:
 
   - title: "DOCUMENTS"
     children:
-      - title: "Main Features"
+      - title: "Editor Features"
         url: "/uce/features/"
       - title: "Language Support"
         url: "/uce/language/"
-      - title: "Color Theme Sample"
+      - title: "Color Themes"
         url: "/uce/color-theme-sample/"
+      - title: "Editor Settings"
+        url: "/uce/settings/"
+      - title: "Shortcuts Customization"
+        url: "/uce/shortcuts/"
+      - title: "Search"
+        url: "/uce/search/"
+      - title: "Unity Actions"
+        url: "/uce/unityactions/"
       - title: "Tips And Tricks"
         url: "/uce/tips/"
 
