@@ -6,6 +6,21 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.1.0
+
+NEW:
+- Add Code Action Feature for C#.
+- Add tabs navigation.
+- Add user snippets support for C# and Shaderlab. Execute `Config User Snippets...` Command in Command Palette for more details.
+- Improve Markdown previews by adding syntax highlighting for code and able to remember last opened position after tab switched.
+
+Imporvements:
+- Improve menu style and settings window layout.
+
+Bug Fix:
+- Fix open file outside project failed sometimes.
+- More drop down menu auto hide when mouse don't hover on it.
+
 ### 1.0.9
 
 NEW: 

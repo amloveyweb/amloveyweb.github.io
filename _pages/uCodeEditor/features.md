@@ -92,3 +92,9 @@ Two ways to preview markdown:
 2. Click the `Eye` icon at the right side of status bar
 
 ![](/assets/images/uce/markdown_preview.jpg)
+
+### Tabs Navigation
+
+Currently we can navigate to a tab item by using shortcuts only. The shortcut is `⌘Tab` or `⇧⌘Tab` macOS and `CTRL + F11` or `CTRL + SHIFT + F11` on Windows. The shortcuts are not support customization for now.
+
+![](/assets/images/uce/tabNavigation.jpg)
