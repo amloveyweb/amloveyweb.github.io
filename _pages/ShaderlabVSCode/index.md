@@ -15,23 +15,23 @@ ShaderlabVSCode is a Visual Studio extension for Unity Shaderlab programming.
 
 ### 1. Syntax Highlighting
 
-![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/highlighting.jpg)
+![](/assets/images/shaderlabvscode/highlighting.jpg)
 
 ### 2. Code Completion and Basic Intellisense
 
-![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/completion.jpg)
+![](/assets/images/shaderlabvscode/completion.jpg)
 
 ### 3. Hover Information
 
-![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/hover.jpg)
+![](/assets/images/shaderlabvscode/hover.jpg)
 
 ### 4. Signature Help
 
-![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/signature.jpg)
+![](/assets/images/shaderlabvscode/signature.jpg)
 
 ### 5 Document Symbols
-![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/symbol-provider.jpg)
+![](/assets/images/shaderlabvscode/symbol-provider.jpg)
 
 ### 6. Auto Format
 
-![](https://raw.githubusercontent.com/amloveyweb/amloveyweb.github.io/master/assets/images/shaderlabvscode/formatdocument.gif)
+![](/assets/images/shaderlabvscode/formatdocument.gif)
