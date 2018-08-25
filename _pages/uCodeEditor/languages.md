@@ -12,7 +12,6 @@ Overview table of languages and their features support:
 | --------------------- | ------ | --------- | ---- | --------------- |
 | Syntax Highlighting   | √      | √         | √    | √               |
 | Code Completion       | √      | √         |      |                 |
-| Syntax Highlighting   | √      | √         | √    | √               |
 | Code Action           | √      |           |      |                 |
 | Go To Definition      | √      |           |      |                 |
 | Find References       | √      |           |      |                 |
