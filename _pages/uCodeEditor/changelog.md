@@ -6,6 +6,23 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.1.1
+
+NEW:
+- Add CodeLens for references information.
+- Double click on tab list bar will create new file.
+- Add `Config Script Templates...` command to support script template modification for current opened Unity Editor.
+- About window and Settings window can be opened via commands in Command Palette now.
+
+Improvements:
+- Recently opened files will show on the top of `Go To File` list.
+- Support open multiple files via `Open In uCodeEditor` menu items in Project.
+- Packages size optimization.
+
+Bug Fix:
+- Tabs closing will not handle dirty state of file.
+- Open file failed when file path contains # symbol.
+
 ### 1.1.0
 
 NEW:
