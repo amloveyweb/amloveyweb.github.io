@@ -22,6 +22,7 @@ Improvements:
 Bug Fix:
 - Tabs closing will not handle dirty state of file.
 - Open file failed when file path contains # symbol.
+- Fix duplicated code action items when select multiple code lines.
 
 ### 1.1.0
 
