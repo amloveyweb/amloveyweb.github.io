@@ -25,7 +25,7 @@ uce:
 
   - title: "DOCUMENTS"
     children:
-      - title: "Editor Features"
+      - title: "Getting Started"
         url: "/uce/features/"
       - title: "Editor Settings"
         url: "/uce/settings/"

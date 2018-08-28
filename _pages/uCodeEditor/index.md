@@ -6,7 +6,7 @@ sidebar:
 permalink: "/uce/index/"
 ---
 
-__uCodeEditor__ is a lightweight code editor inside Unity Editor, another code editor choice for Unity programming. It supports C# and shaderlab with great editing features, including Syntax Highlighting, Code Complete, Auto Format etc. 
+__uCodeEditor__ is a lightweight code editor inside Unity Editor, supports C# and shaderlab with great editing features, including Syntax Highlighting, Code Complete, Auto Format etc. 
 
 ![](/assets/images/uce/black-overview.png)
 

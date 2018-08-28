@@ -41,7 +41,7 @@ An then select one of the drop down item and will the file directly.
 
 ![](/assets/images/uce/gotofile.png)
 
-### UI Actions
+### Button Actions
 
 For the icons button in below image show, from left to right is 
 
