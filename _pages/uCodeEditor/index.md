@@ -12,7 +12,7 @@ __uCodeEditor__ is a lightweight code editor inside Unity Editor, supports C# an
 
 ### Video
 
-<iframe width="640" height="351" src="https://www.youtube.com/embed/hQA_fuUVsGQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="351" src="https://www.youtube.com/embed/1mKItlLMdFY" frameborder="0" allowfullscreen></iframe>
 
 ### Asset Store:
 
