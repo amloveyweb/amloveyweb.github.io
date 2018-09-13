@@ -26,7 +26,7 @@ In addition to double click a script file in Project window, below action will o
 
 ### Command Palette
 
-**Command Palette** provides access to many commands. From here, you have acess for most of functionality of __uCodeEditor__. Press `F1` will open Command Palette.
+**Command Palette** provides access to many commands. From here, you have acess for most of functionalities of __uCodeEditor__. Press `F1` will open Command Palette.
 
 ![](/assets/images/uce/commands-.png)
 
