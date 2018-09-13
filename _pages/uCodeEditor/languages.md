@@ -8,7 +8,7 @@ permalink: "/uce/language/"
 
 Overview table of languages and their features support:
 
-| Features              | CSharp | Shaderlab | Json | Markdown | c, c++, lua, python, object-c, swift, java, css, html |
+| Features              | CSharp | Shaderlab | Json | Markdown | c, c++, lua, python, object-c, swift, java, css, html, sql, typescript |
 | --------------------- | ------ | --------- | ---- |--- | --------------- |
 | Syntax Highlighting   | √  | √          | √     | √   | √           |
 | Code Completion       | √       | √          |      |    |            |

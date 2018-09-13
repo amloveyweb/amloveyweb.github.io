@@ -9,7 +9,7 @@ toc: true
 
 ### Go To Scenes
 
-Quickly jump to a scene, no need to find a scene file and double click it. See `Unity Editor: Go To Scenes...` command in Command Palatte.
+Quickly jump to a scene, no need to find a scene file and double click it in Project window. See `Unity Editor: Go To Scenes...` command in Command Palatte.
 
 ### Reveal Unity Speical Folder
 

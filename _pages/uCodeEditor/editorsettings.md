@@ -9,7 +9,7 @@ toc: true
 
 ### Editor Settings
 
-We can change editor setting in __Settings Window__, which can open via click __More__ button and select __Settings...__ menu in more dropdown menu.
+We can change editor settings in __Settings Window__, which can be opened via clicking __More__ button and then select __Settings...__ menu in the dropdown menu.
 
 ![](/assets/images/uce/settings.png)
 

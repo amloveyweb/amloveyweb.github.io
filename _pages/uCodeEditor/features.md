@@ -9,20 +9,20 @@ toc: true
 
 ### Open uCodeEditor
 
-Two ways can archive this:
+Two ways can do this:
 
-1. Via __Tools__ -> __uCodeEditor__ -> __uCodeEditor__
+1. Via menu __Tools__ -> __uCodeEditor__ -> __uCodeEditor__
 2. Open any script files will open uCodeEditor if it's not opened
 
 ### Open File In uCodeEditor
 
-Beside double click a script file in Project Window, below action will open file in uCodeEditor too:
+In addition to double click a script file in Project window, below action will open file in uCodeEditor:
 
-1. Via right-click dropdown context menu item `Open in uCodeEditor` in Project Window
-2. Double click the script references in Componment inside Inspector
-3. Click the `Open...` button in Inspector 
-4. Use `Go to File...` command to open a file
-5. Use `Open File...` command to oepn a file
+* Via right-click dropdown context menu item `Open in uCodeEditor` in Project window
+* Double click the script references in Componment inside Inspector
+* Click the `Open...` button in Inspector 
+* Use `Go to File...` command to open a file
+* Use `Open File...` command to oepn a file
 
 ### Command Palette
 
@@ -35,7 +35,7 @@ Beside double click a script file in Project Window, below action will open file
 Two way can open the `Go To File` dialog:
 
 1. Press `⌘;` on macOS or `Ctrl+;` on window
-2. Press `F1` to open Command Paletee and execute the command `Go To File`
+2. Press `F1` to open Command Palette and execute the command `Go To File`
 
 An then select one of the drop down item and will the file directly. 
 
@@ -43,19 +43,19 @@ An then select one of the drop down item and will the file directly.
 
 ### Button Actions
 
-For the icons button in below image show, from left to right is 
+As below image show, the buttons from left to right are:
 
-- __Refresh__: Sync with Project, it will save all files and trigger an recompile. Shortcut is `⌘R` on macOS and `Ctrl+Alt+R` on Windows
+- __Refresh__: Sync with Project, it will save all files and trigger a recompile. Shortcut is `⌘R` on macOS and `Ctrl+R` on Windows
 - __Thunder__: Open Command Palette. Shortcut is `F1`
 - __Save__: Save current opened document. Shortcut is `⌘K` on macOS and `Ctrl+K` on Windows
-- __More__: Hover or click will open drop down menu
-  - __New__: Create new document. Shortcut is `⌘J` on macOS and `Ctrl+J` on Windows
-  - __Ping__: Ping current opened document in Unity Project Window. Shortcut is `⌘L` on macOS and `Ctrl+L` on Windows
+- __More__: Click will open drop down menu, and for the menu items:
+  - __New__: Create new document. Shortcut is `⌘T` on macOS and `Ctrl+T` on Windows
+  - __Ping__: Ping current opened document in Unity Project window. Shortcut is `⌘L` on macOS and `Ctrl+L` on Windows
   - __Close Tab__: Close current opened document. Shortcut is `⌘W` on macOS and `Ctrl+W` on Windows
   - __Close All Tab__: Close all tabs in tablist
   - __Save All__: Save all documents which has changes
   - __Settings...__: Open __Settings Window__ Dialog
-  - __About__: Show about information and versions.
+  - __About__: Show about information and version
 
 ![](/assets/images/uce/more.png)
 

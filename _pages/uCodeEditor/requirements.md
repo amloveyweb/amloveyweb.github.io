@@ -9,7 +9,7 @@ toc: true
 
 ## Installation
 
-Import the uCodeEditor unity packages and __Restart Unity Editor after importing__. 
+Import the uCodeEditor unity package and __Restart Unity Editor after importing__. 
 
 ## Requirements
 
