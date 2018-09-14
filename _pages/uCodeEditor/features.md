@@ -11,8 +11,8 @@ toc: true
 
 Two ways can do this:
 
-1. Via menu __Tools__ -> __uCodeEditor__ -> __uCodeEditor__
-2. Open any script files will open uCodeEditor if it's not opened
+* Via menu __Tools__ -> __uCodeEditor__ -> __uCodeEditor__
+* Open any script files will open uCodeEditor if it's not opened
 
 ### Open File In uCodeEditor
 
@@ -34,8 +34,8 @@ In addition to double click a script file in Project window, below action will o
 
 Two way can open the `Go To File` dialog:
 
-1. Press `⌘;` on macOS or `Ctrl+;` on window
-2. Press `F1` to open Command Palette and execute the command `Go To File`
+* Press `⌘;` on macOS or `Ctrl+;` on window
+* Press `F1` to open Command Palette and execute the command `Go To File`
 
 An then select one of the drop down item and will the file directly. 
 
@@ -88,8 +88,8 @@ uCode also supports region for C# and Shaderlab.
 
 Two ways to preview markdown: 
 
-1. Execute `Toggle Markdown Preview` command
-2. Click the `Eye` icon at the right side of status bar
+* Execute `Toggle Markdown Preview` command
+* Click the `Eye` icon at the right side of status bar
 
 ![](/assets/images/uce/markdown_preview.jpg)
 
