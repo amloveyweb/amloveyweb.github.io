@@ -14,6 +14,10 @@ Two ways can do this:
 * Via menu __Tools__ -> __uCodeEditor__ -> __uCodeEditor__
 * Open any script files will open uCodeEditor if it's not opened
 
+#### Multiple Windows
+
+Use `New Window` command or click the `New Window` menu item in more drop down menu in MainUI.
+
 ### Open File In uCodeEditor
 
 In addition to double click a script file in Project window, below action will open file in uCodeEditor:
@@ -49,7 +53,8 @@ As below image show, the buttons from left to right are:
 - __Thunder__: Open Command Palette. Shortcut is `F1`
 - __Save__: Save current opened document. Shortcut is `⌘K` on macOS and `Ctrl+K` on Windows
 - __More__: Click will open drop down menu, and for the menu items:
-  - __New__: Create new document. Shortcut is `⌘T` on macOS and `Ctrl+T` on Windows
+  - __New File__: Create new document. Shortcut is `⌘T` on macOS and `Ctrl+T` on Windows
+  - __New Window__: Create new window.
   - __Ping__: Ping current opened document in Unity Project window. Shortcut is `⌘L` on macOS and `Ctrl+L` on Windows
   - __Close Tab__: Close current opened document. Shortcut is `⌘W` on macOS and `Ctrl+W` on Windows
   - __Close All Tab__: Close all tabs in tablist

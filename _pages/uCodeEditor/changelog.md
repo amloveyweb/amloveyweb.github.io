@@ -6,6 +6,26 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.1.2
+
+NEW:
+- Add multiple windows supports. We can create new window using `New Window` command or click the `New Window` menu item in more drop down menu.
+- Add new light theme named `Github`.
+- Add `Open MSDN Documentation for Selection` and `Open Unity Documentation for Selection` commands to search selected text on MSN documentation and Unity script documentation.
+- Add syntax highlighting for SQL and Typescript language.
+- Add `Save File To..` command which can save a copy of current opened file to the location outside project.
+
+Improvements:
+- Update more dropdown menu style with groups.
+- Add loading image when uCodeEditor window is launching.
+- Add search commands and remove keybinding for a command features in shortcut customization window.
+
+Bug Fix:
+- Fix AutoSave are broken in some scenarios.
+- Fix `Close` icon is missing in Find References window.
+- Fix issue that folding state cannot restore when tab switched.
+- Fix Go To Definition will not save view state of preview tab.
+
 ### 1.1.1
 
 NEW:
