@@ -6,6 +6,26 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.1.4
+
+Improvements:
+- Add dark mode for markdown preview.
+- Move `Tips and Tricks` from modal window to tab page.
+- Update About page to include more links.
+
+Bug Fix:
+- Fix loading images is not hide issue.
+
+### 1.1.3
+
+Improvements:
+- Last opened scene will be on the top of list after execute command `Unity Editor: Go To Scene...`
+- Remove refresh assets action before entering play mode to improve performance, but we need to sync scripts before play mode now
+- Add depth functions to Shaderlab language
+
+Bug Fix:
+- Fix cannot close save message box when click on Don't Save button in some scenarios
+
 ### 1.1.2
 
 NEW:
