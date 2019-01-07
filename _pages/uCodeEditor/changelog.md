@@ -6,6 +6,21 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+
+### 1.1.5
+
+NEW && Improvements:
+- Add Dash integration on macOS. Quick search selection in Dash by shortcut `ALT + 3`.
+- Add basic editor extension apis which are in class `uCodeEditor.Extensions.EditorExtensions`.
+- Add command `Toggle uCodeEditor Association` which can turn on/off the feature double click scripts file will be openned by uCodeEditor.
+- Update default file encoding to uft8 without bom.
+
+Bug Fix
+- Unity Editor 2018.3.0 on macOS introduce shortcut conflicts for Redo, Undo and Select All functions. This version have workaround fixes.
+    - Redo,Undo: `CMD+Z` and `CMD+SHIFT+Z` still works with the fixes.
+    - SelectAll: Shortcut was changed to `ALT+A`.
+- Fix markdown string coloring is broken.
+
 ### 1.1.4
 
 Improvements:
