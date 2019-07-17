@@ -6,6 +6,28 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.1.8
+
+Improvements:
+- Add a option in settings to turn on/off auto closing bracket feature
+- Add Go To Definition to support include files for Shaderlab
+
+FIX:
+- Shaderlab auto format bug on lines ends with '\'
+
+
+### 1.1.7
+
+Improvements
+- Unity 2019 Compability
+
+### 1.1.6
+
+Improvements:
+- Change shortcuts for Redo, Undo and Select All on macOS for Unity 2018.3.0 or newer:
+    - Redo: `ALT + SHIFT + Z`
+    - Undo: `ALT + Z`
+    - Select All: `ALT + A`
 
 ### 1.1.5
 
