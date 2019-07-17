@@ -23,6 +23,7 @@ We can change editor settings in __Settings Window__, which can be opened via cl
 - Indent Guide
 - Tab Out
 - Auto Save
+- Auto Closing Bracket
 
 #### Shaderlab
 
