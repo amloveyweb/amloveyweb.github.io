@@ -41,6 +41,8 @@ uce:
         url: "/uce/unityactions/"
       - title: "Tips And Tricks"
         url: "/uce/tips/"
+      - title: "Builtin Actions"
+        url: "/uce/actions/"
 
   - title: "LOG"
     children:
