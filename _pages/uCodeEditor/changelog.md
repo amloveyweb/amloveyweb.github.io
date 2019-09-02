@@ -6,6 +6,32 @@ sidebar:
 permalink: "/uce/changelog/"
 toc: true
 ---
+### 1.2.1
+
+Improvements:
+- Support 'Add package from disk...' feature of Unity Package Manager in Unity 2019
+- Add `Show Tabs` button on the Main UI to make uCodeEditor able to quick switch to other tab
+- Optimize Omnisharp launching process 
+
+### 1.2.0
+
+Improvements:
+- Add Assembly Definition for uCodeEditor to improve performance
+
+FIX:
+- Fix CodeAction does not work on Unity 2018.4 in some scenarios on Windows
+- Fix Setting item are not display correctly issue
+- Fix Omnisharp start failed on macOS when there are not correct mono version installed, now we use Unity builtin mono to execute Omnisharp
+- Fix Intellisense are broken issue On Windows on Unity 2018.4 when there are multiple uCodeEditor Window instances
+
+### 1.1.9
+
+Improvements:
+- Add UContextMenuCommand attribute to enable add action in context menu of editor.
+
+FIX:
+- Fix dock issue for Unity 2019.
+
 ### 1.1.8
 
 Improvements:
