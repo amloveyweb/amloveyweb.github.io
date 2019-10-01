@@ -14,8 +14,6 @@ Amlovey is an Unity AssetStore publisher, aslo an Unity developer in China.
 
 ## VSCode Marketpalce
 [ShaderlabVSCode(Free)](https://marketplace.visualstudio.com/items?itemName=amlovey.shaderlabvscodefree)  
-[Unity Asset Store Viewer](https://marketplace.visualstudio.com/items?itemName=amlovey.uas)  
-
 
 ## Contact
 
