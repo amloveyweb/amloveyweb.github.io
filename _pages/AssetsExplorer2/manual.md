@@ -1,5 +1,5 @@
 ---
-title: "A+ Assets Explorer 2"
+title: "Manual"
 layout: single
 sidebar:
   nav: "assetsexplorer2"
