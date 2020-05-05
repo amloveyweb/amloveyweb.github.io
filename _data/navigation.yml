@@ -4,6 +4,8 @@ main:
     url: "/"
   - title: "A+ Assets Explorer"
     url:  /assetexplorer/manual/
+  - title: "A+ Assets Explorer 2"
+    url: /assetexplorer2/assetsexplorer/
   - title: "ShaderlabVSCode"
     url: /shaderlabvscode/index/
   - title: "uCodeEditor"
@@ -114,3 +116,13 @@ assets-explorer:
       - title: "Known Issues"
         url: "/assets-explorer/known-issues/"
       - text: "V 2.0.1"
+
+assetsexplorer2:
+  - title: "GETTING STARTED"
+    children:
+      - title: "Introduction"
+        url: "/assetexplorer2/assetsexplorer/"
+      - title: "Manual"
+        url: "/assetexplorer2/manual/" 
+      - title: "Extened Assets Explorer"
+        url: "/assetexplorer2/extend/" 
