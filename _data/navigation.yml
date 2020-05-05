@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Home"
-    url: "/"
   - title: "A+ Assets Explorer"
     url:  /assetexplorer/manual/
   - title: "A+ Assets Explorer 2"
