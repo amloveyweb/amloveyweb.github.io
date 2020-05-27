@@ -10,3 +10,7 @@ A+ Assets Explorer 2 is an assets management tool. It has features that searchin
 
 ## Video Preview
 <iframe width="640" height="351" src="https://www.youtube.com/embed/orYzGWLUopI" frameborder="0" allowfullscreen></iframe>
+
+## Purchase
+
+[https://assetstore.unity.com/packages/tools/utilities/a-assets-explorer-573355](https://assetstore.unity.com/packages/tools/utilities/a-assets-explorer-573355?aid=1011lGoJ)
