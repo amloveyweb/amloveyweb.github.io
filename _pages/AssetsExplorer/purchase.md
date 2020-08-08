@@ -7,8 +7,6 @@ sidebar:
 ---
 <iframe src='https://api.assetstore.unity3d.com/affiliate/embed/package/57335/widget-light?aid=1011lGoJ' style='width:202px; height:260px; border:0px;'></iframe>
 
-Or buy in MianMaoDuo (China Only) with lower price: <https://mianbaoduo.com/product/show/mbd-Yp2Ylg==>
-
 ## Want to try it first?
 
 Get the free version
