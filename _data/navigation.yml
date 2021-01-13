@@ -4,10 +4,10 @@ main:
     url:  /assetexplorer/manual/
   - title: "A+ Assets Explorer 2"
     url: /assetexplorer2/assetsexplorer/
+  - title: ShaderlabVS
+    url: https://www.amlovey.com/shaderlabvs/
   - title: "ShaderlabVSCode"
-    url: /shaderlabvscode/index/
-  - title: "uCodeEditor"
-    url: /uce/index/
+    url: https://www.amlovey.com/shaderlabvscode/
   - title: "Asset Store"
     url: https://assetstore.unity.com/publishers/18895?aid=1011lGoJ
   - title: "Blogs"
