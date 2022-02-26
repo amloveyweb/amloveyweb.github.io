@@ -1,17 +1,13 @@
 # main links
-# main:
-#   - title: "A+ Assets Explorer"
-#     url:  /assetexplorer/manual/
-#   - title: "A+ Assets Explorer 2"
-#     url: /assetexplorer2/assetsexplorer/
-#   - title: ShaderlabVS Pro
-#     url: https://www.amlovey.com/shaderlabvs/
-#   - title: "ShaderlabVSCode"
-#     url: https://www.amlovey.com/shaderlabvscode/
-#   - title: "Asset Store"
-#     url: https://assetstore.unity.com/publishers/18895?aid=1011lGoJ
-#   - title: "Blogs"
-#     url: /blog/
+main:
+  - title: "ShaderlabVS Pro"
+    url: https://www.amlovey.com/shaderlabvs/
+  - title: "ShaderlabVSCode"
+    url: https://www.amlovey.com/shaderlabvscode/
+  - title:
+    url: https://www.amlovey.com/YadeDocs/#/
+  - title: "Asset Store"
+    url: https://assetstore.unity.com/publishers/18895?aid=1011lGoJ
 
 uce:
   - title: "GETTING STARTED"
