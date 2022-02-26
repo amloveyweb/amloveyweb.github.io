@@ -12,7 +12,7 @@ Amlovey is an Unity AssetStore publisher, aslo an Unity developer in China.
 [A+ Assets Explorer 2](/assetexplorer2/assetsexplorer/)  
 [ShaderlabVS](https://www.amlovey.com/shaderlabvs/)  
 [ShaderlabVSCode](https://www.amlovey.com/shaderlabvscode/)  
-[Yade](https://www.amlovey.com/YadeDocs/)  
+[Yade Sheet](https://www.amlovey.com/YadeDocs/)  
 [uCodeEditor](/uce/index/)
 
 ## VSCode Marketpalce
