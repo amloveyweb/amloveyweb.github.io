@@ -1,2 +1,0 @@
-- Welcome
-    - [About AMLOVEY](Main.md)
