@@ -1,6 +1,7 @@
 (function (window) {
     window.UASLink = "https://assetstore.unity.com/?on_sale=true&orderBy=1&rows=96&aid=1011lGoJ";
     window.UASBannerImg = "https://www.amlovey.com/uas/banner/banner.jpg";
+    window.UASBannerEnable = false;
 
     window.UASBanner = {
         create() {
@@ -15,6 +16,10 @@
             };
         },
         createCSS() {
+            if (!window.UASBannerEnable) {
+                return;
+            }
+            
             const styleEl = document.createElement("style");
             styleEl.textContent = `
                 #uas-banner {
@@ -28,6 +33,10 @@
             document.head.insertBefore(styleEl, document.querySelector("head style"));
         },
         createElements() {
+            if (!window.UASBannerEnable) {
+                return;
+            }
+
             let bannerEl = document.querySelector("#uas-banner");
             const sidebarEl = document.querySelector(".sidebar");
 
