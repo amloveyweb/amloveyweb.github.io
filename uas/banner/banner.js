@@ -1,7 +1,7 @@
 (function (window) {
     window.UASLink = "https://assetstore.unity.com/?on_sale=true&orderBy=1&rows=96&aid=1011lGoJ";
     window.UASBannerImg = "https://www.amlovey.com/uas/banner/banner.jpg";
-    window.UASBannerEnable = false;
+    window.UASBannerEnable = true;
 
     window.UASBanner = {
         create() {
