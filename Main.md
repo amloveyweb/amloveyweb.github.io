@@ -2,7 +2,9 @@
 
 ## ABOUT AMLOVEY
 
-Amlovey is an [Unity Asset Store Publisher](https://assetstore.unity.com/publishers/18895?aid=1011lGoJ), aslo an Unity developer in China. Any __QUESTIONS__ or __ISSUES__, or __FEATURE REQUESTS__, welcome to send email to <amlovey@qq.com>. I will reply ASAP.
+Amlovey is a small studio from China. We deliver productivity tools for Unity. 
+
+Have any questions? Contact us <a href='mailto:contact@amlovey.com'>contact@amlovey.com</a>
 
 ## UNITY ASSETS
 
