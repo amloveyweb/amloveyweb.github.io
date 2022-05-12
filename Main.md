@@ -2,7 +2,7 @@
 
 ## ABOUT AMLOVEY
 
-Amlovey is a small studio from China. We deliver productivity tools for Unity. 
+AMLOVEY is a small studio from China. We deliver productivity tools for Unity. 
 
 Have any questions? Contact us <a href='mailto:contact@amlovey.com'>contact@amlovey.com</a>
 
