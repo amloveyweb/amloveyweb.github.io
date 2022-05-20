@@ -1,4 +1,4 @@
-![logo](/uas/assets/assets.png)
+![logo](https://www.amlovey.com/uas/assets/assets.png)
 
 > <span style='font-size:1.6em;margin-bottom:10px'> We delivers Productivity Tools for Unity</a>
 
