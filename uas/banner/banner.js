@@ -1,7 +1,7 @@
 (function (window) {
-    window.UASLink = "https://assetstore.unity.com/publisher-sale?aid=1011lGoJ";
+    window.UASLink = "https://assetstore.unity.com/indie-game-ideas-and-inspiration?aid=1011lGoJ";
     window.UASBannerImg = "https://www.amlovey.com/uas/banner/banner.jpg";
-    window.UASBannerEnable = false;
+    window.UASBannerEnable = true;
 
     window.UASBanner = {
         create() {
