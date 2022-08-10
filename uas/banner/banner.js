@@ -1,5 +1,5 @@
 (function (window) {
-    window.UASLink = "https://assetstore.unity.com/indie-game-ideas-and-inspiration?aid=1011lGoJ";
+    window.UASLink = "https://assetstore.unity.com/develop-indie-games-faster?aid=1011lGoJ";
     window.UASBannerImg = "https://www.amlovey.com/uas/banner/banner.jpg";
     window.UASBannerEnable = true;
 
