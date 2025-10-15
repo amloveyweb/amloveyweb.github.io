@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://omnishader.amlovey.com/</loc>
+    <loc>https://omnishader.amlovey.com/</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/download</loc>
+    <loc>https://omnishader.amlovey.com/download</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs</loc>
+    <loc>https://omnishader.amlovey.com/docs</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=getting-started</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=getting-started</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=installation</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=installation</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=core-features</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=core-features</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=code-snippets</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=code-snippets</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=use-a-license</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=use-a-license</loc>
     <priority>0.6</priority>
     <changefreq> yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=document-comments</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=document-comments</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=misc</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=misc</loc>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=issues</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=issues</loc>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/docs/?doc=contact</loc>
+    <loc>https://omnishader.amlovey.com/docs/?doc=contact</loc>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/blog</loc>
+    <loc>https://omnishader.amlovey.com/blog</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/blog/?blog=why-creating-omni-shader</loc>
+    <loc>https://omnishader.amlovey.com/blog/?blog=why-creating-omni-shader</loc>
     <priority>0.6</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/blog/?blog=vsc-is-on</loc>
+    <loc>https://omnishader.amlovey.com/blog/?blog=vsc-is-on</loc>
     <priority>0.6</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/price</loc>
+    <loc>https://omnishader.amlovey.com/price</loc>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/login</loc>
+    <loc>https://omnishader.amlovey.com/login</loc>
     <priority>0.6</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://omnishader.amlovey.com/signup</loc>
+    <loc>https://omnishader.amlovey.com/signup</loc>
     <priority>0.6</priority>
     <changefreq>yearly</changefreq>
   </url>
